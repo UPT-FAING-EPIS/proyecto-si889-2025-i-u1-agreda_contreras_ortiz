@@ -154,11 +154,21 @@ e) Estandaraes de calidad y seguridad	](#_toc394513800)42
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
-2. <span id="_Toc52661347" class="anchor"></span>**Posicionamiento**
 
-    2.1	Oportunidad de negocio
+## 2. <span id="_Toc52661347" class="anchor"></span> Posicionamiento  
 
-    2.2	Definición del problema
+### 2.1. Oportunidad de negocio  
+
+El aprendizaje de instrumentos musicales ha evolucionado con la tecnología, permitiendo que cada vez más personas accedan a herramientas digitales para desarrollar sus habilidades. En particular, el piano es uno de los instrumentos más populares para principiantes, pero aprenderlo sin un instructor puede ser complicado debido a la falta de retroalimentación inmediata y métodos interactivos efectivos.  
+
+El mercado de la educación musical en línea ha crecido significativamente en los últimos años. Según estudios de la industria EdTech, las plataformas de aprendizaje musical han experimentado un aumento en la demanda, especialmente aquellas que ofrecen un enfoque práctico y accesible. Sin embargo, muchas soluciones existentes requieren suscripciones costosas o están limitadas a ejercicios teóricos sin reconocimiento en tiempo real de la ejecución del usuario.  
+
+**PianoRise** se posiciona como una solución innovadora que cierra esta brecha al ofrecer una plataforma web donde los estudiantes pueden aprender de manera autodidacta, con detección de notas en tiempo real y un sistema de progreso visual. Su enfoque interactivo y didáctico lo diferencia de otros métodos tradicionales y aplicaciones que solo muestran partituras sin evaluar la ejecución del usuario.  
+
+La implementación de **PianoRise** no solo facilita el aprendizaje del piano, sino que también democratiza el acceso a la educación musical, eliminando barreras económicas y tecnológicas. Con un modelo basado en la práctica progresiva y el reconocimiento en tiempo real, **PianoRise** representa una oportunidad estratégica para transformar la enseñanza del piano en el entorno digital.
+
+
+
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
