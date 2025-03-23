@@ -167,6 +167,22 @@ El mercado de la educación musical en línea ha crecido significativamente en l
 
 La implementación de **PianoRise** no solo facilita el aprendizaje del piano, sino que también democratiza el acceso a la educación musical, eliminando barreras económicas y tecnológicas. Con un modelo basado en la práctica progresiva y el reconocimiento en tiempo real, **PianoRise** representa una oportunidad estratégica para transformar la enseñanza del piano en el entorno digital.
 
+## 2.2. Definición del problema  
+
+El aprendizaje del piano presenta diversos desafíos, especialmente para aquellos que intentan aprender de forma autodidacta. Entre los principales problemas que enfrenta este público se encuentran:  
+
+- **Falta de retroalimentación inmediata**  
+  Los métodos tradicionales de aprendizaje del piano (libros, tutoriales en video, aplicaciones de lectura de partituras) no ofrecen una forma efectiva de verificar si el estudiante está tocando las notas correctas. La ausencia de retroalimentación en tiempo real dificulta el progreso y la corrección de errores.  
+
+- **Dificultad para evaluar el progreso**  
+  Muchos principiantes abandonan el aprendizaje del piano debido a la falta de una estructura clara para medir su avance. Sin una forma visual y progresiva de ver su mejora, la motivación disminuye rápidamente.  
+
+- **Accesibilidad limitada a instrucción personalizada**  
+  Las clases de piano pueden ser costosas y no siempre están al alcance de todos. Además, no todas las personas tienen acceso a un instructor que pueda guiarlos en su aprendizaje.  
+
+- **Escasez de herramientas interactivas centradas en la práctica**  
+  Si bien existen aplicaciones que enseñan teoría musical o muestran cómo tocar canciones, pocas combinan estas funciones con el reconocimiento de notas en tiempo real para garantizar un aprendizaje efectivo.  
+
 
 
 
