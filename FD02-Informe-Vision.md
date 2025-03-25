@@ -251,7 +251,18 @@ El aprendizaje del piano presenta diversos desafíos, especialmente para aquello
 - Repetir ejercicios hasta dominarlos.  
 
 
-3.6	Necesidades de los interesados y usuarios
+### 3.6. Necesidades de los interesados y usuarios
+
+#### Estudiantes de Piano  
+- **Retroalimentación inmediata:** Necesitan saber si están tocando las notas correctas en el momento.  
+- **Interfaz amigable:** Que facilite el aprendizaje sin barreras técnicas.  
+- **Progreso visual:** Poder ver cuánto han avanzado y qué les falta por completar.  
+- **Motivación y práctica guiada:** Ejercicios interactivos que les permitan practicar de forma estructurada.  
+
+#### Docentes de Música  
+- **Recurso complementario confiable:** Buscan una herramienta que complemente sus clases presenciales o virtuales.  
+- **Facilidad de recomendación:** La app debe ser lo suficientemente clara para que cualquier alumno pueda utilizarla por sí solo.  
+
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
