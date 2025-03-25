@@ -233,7 +233,23 @@ El aprendizaje del piano presenta diversos desafíos, especialmente para aquello
 - Interesados en apoyar herramientas tecnológicas que promuevan la enseñanza musical accesible.
 
 
-3.5	Perfiles de los Usuarios
+### 3.5. Perfiles de los usuarios
+
+#### Principiantes en Piano (Usuarios Finales)  
+**Perfil:**  
+- Usuarios de cualquier edad que desean aprender piano desde casa, sin necesidad de conocimientos previos.  
+
+**Características:**  
+- Necesitan una interfaz accesible y fácil de entender.  
+- Requieren retroalimentación inmediata para corregir errores.  
+- Buscan motivación a través de progreso visual, gamificación y logros.  
+
+**Opciones Disponibles:**  
+- Seguir ejercicios paso a paso.  
+- Visualizar notas y recibir corrección en tiempo real.  
+- Consultar su avance por fracciones.  
+- Repetir ejercicios hasta dominarlos.  
+
 
 3.6	Necesidades de los interesados y usuarios
 
