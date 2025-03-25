@@ -221,7 +221,17 @@ El aprendizaje del piano presenta diversos desafíos, especialmente para aquello
 - Conexión a internet para acceder a los contenidos.
 
 
-3.4	Perfiles de los interesados
+### 3.4. Perfiles de los interesados
+
+#### Usuarios Finales (Estudiantes de Piano)  
+- Personas autodidactas interesadas en aprender a tocar el piano desde cero, ya sea por hobby, curiosidad o deseo de adquirir nuevas habilidades musicales.
+
+#### Docentes de Música  
+- Profesores de piano que podrían incorporar PianoRise como herramienta de práctica en sus clases, para que sus estudiantes practiquen entre sesiones.
+
+#### Inversores o Instituciones de Educación Musical  
+- Interesados en apoyar herramientas tecnológicas que promuevan la enseñanza musical accesible.
+
 
 3.5	Perfiles de los Usuarios
 
