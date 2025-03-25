@@ -205,9 +205,21 @@ El aprendizaje del piano presenta diversos desafíos, especialmente para aquello
 ### 3.2. Resumen de los usuarios
 
 **Estudiantes Principiantes de Piano:**  
-Usuarios principales de PianoRise. Pueden ser personas de cualquier edad con poco o ningún conocimiento previo sobre el piano. Utilizan la plataforma para practicar canciones, recibir retroalimentación y avanzar gradualmente a través de los niveles de dificultad.
+- Usuarios principales de PianoRise. Pueden ser personas de cualquier edad con poco o ningún conocimiento previo sobre el piano. Utilizan la plataforma para practicar canciones, recibir retroalimentación y avanzar gradualmente a través de los niveles de dificultad.
 
-3.3	Entorno de usuario
+### 3.3. Entorno de usuario
+
+#### Plataforma Web Interactiva:
+- Los usuarios acceden a PianoRise a través de navegadores en computadoras, sin necesidad de instalación. La interfaz está diseñada para ser clara e intuitiva, permitiendo al estudiante concentrarse en su práctica sin distracciones.
+
+#### Reconocimiento de Audio en Tiempo Real:
+- La aplicación detecta las notas que el usuario toca mediante el micrófono del dispositivo y las compara con las notas esperadas para dar retroalimentación inmediata.
+
+#### Requisitos Técnicos:
+- Acceso a una computadora con micrófono funcional.
+- Navegador web actualizado.
+- Conexión a internet para acceder a los contenidos.
+
 
 3.4	Perfiles de los interesados
 
