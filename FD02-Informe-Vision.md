@@ -188,19 +188,29 @@ El aprendizaje del piano presenta diversos desafíos, especialmente para aquello
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
-3. <span id="_Toc52661348" class="anchor"></span>**Vista General del Producto**
 
-    3.1	Resumen de los interesados
+## 3. <span id="_Toc52661348" class="anchor"></span> Descripción de los interesados y usuarios
 
-    3.2	Resumen de los usuarios
+### 3.1 Resumen de los interesados
 
-    3.3	Entorno de usuario
+#### *Usuarios Finales:*  
+- Personas interesadas en aprender a tocar piano, especialmente principiantes que buscan una alternativa digital para estudiar de forma autodidacta y práctica.  
+- Evaluar la facilidad de uso, la precisión del reconocimiento de notas, la calidad de los ejercicios propuestos y la utilidad del sistema de progreso para el aprendizaje individual.  
 
-    3.4	Perfiles de los interesados
+#### *Docentes o Instructores de Música:*  
+- Profesores que podrían recomendar la aplicación a sus estudiantes como herramienta de práctica complementaria.  
+- Asegurar que la aplicación refuerce correctamente los conceptos básicos del piano y proporcione retroalimentación útil para el estudiante.
 
-    3.5	Perfiles de los Usuarios
 
-    3.6	Necesidades de los interesados y usuarios
+3.2	Resumen de los usuarios
+
+3.3	Entorno de usuario
+
+3.4	Perfiles de los interesados
+
+3.5	Perfiles de los Usuarios
+
+3.6	Necesidades de los interesados y usuarios
 
 <div style="page-break-after: always; visibility: hidden">\pagebreak</div>
 
