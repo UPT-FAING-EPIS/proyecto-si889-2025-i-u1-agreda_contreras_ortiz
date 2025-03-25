@@ -191,7 +191,7 @@ El aprendizaje del piano presenta diversos desafíos, especialmente para aquello
 
 ## 3. <span id="_Toc52661348" class="anchor"></span> Descripción de los interesados y usuarios
 
-### 3.1 Resumen de los interesados
+### 3.1. Resumen de los interesados
 
 #### *Usuarios Finales:*  
 - Personas interesadas en aprender a tocar piano, especialmente principiantes que buscan una alternativa digital para estudiar de forma autodidacta y práctica.  
@@ -202,7 +202,10 @@ El aprendizaje del piano presenta diversos desafíos, especialmente para aquello
 - Asegurar que la aplicación refuerce correctamente los conceptos básicos del piano y proporcione retroalimentación útil para el estudiante.
 
 
-3.2	Resumen de los usuarios
+### 3.2. Resumen de los usuarios
+
+**Estudiantes Principiantes de Piano:**  
+Usuarios principales de PianoRise. Pueden ser personas de cualquier edad con poco o ningún conocimiento previo sobre el piano. Utilizan la plataforma para practicar canciones, recibir retroalimentación y avanzar gradualmente a través de los niveles de dificultad.
 
 3.3	Entorno de usuario
 
