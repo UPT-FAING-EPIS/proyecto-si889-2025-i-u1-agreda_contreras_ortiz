@@ -400,6 +400,27 @@ Integrantes:
 ---
 
 8. #### **Precedencia y Prioridad**{#precedencia-y-prioridad}
+
+  En el desarrollo de PianoRise, se han identificado diversas funcionalidades y requisitos. Para asegurar una implementación eficiente, se establecen las siguientes prioridades:
+  
+  Funcionalidades Esenciales 
+  
+  Estas características son fundamentales para que la plataforma cumpla con su propósito principal:
+    - Reconocimiento de notas en tiempo real: El sistema debe detectar con precisión las notas tocadas y brindar retroalimentación inmediata.
+    - Interfaz gráfica de visualización de notas: La plataforma debe mostrar en pantalla qué notas deben ejecutarse y si han sido tocadas correctamente.
+    - Sistema de progreso fraccionado: La implementación del avance en fracciones (1/8, 2/8, etc.) es clave para mantener la motivación del usuario.
+    - Modo de práctica guiado y libre: Los usuarios deben poder elegir entre recibir orientación paso a paso o tocar libremente con evaluación en tiempo real.
+    - Compatibilidad con micrófonos estándar: La plataforma debe ser capaz de procesar audio de micrófonos integrados en computadoras o externos.
+
+  Funcionalidades Secundarias
+  
+  Estas características mejoran la experiencia del usuario, pero su ausencia no impediría el uso básico de la plataforma:
+
+    - Galería de canciones básicas y ejercicios progresivos: Se incluirá un repertorio inicial de canciones, priorizando aquellas que faciliten el aprendizaje.
+    - Retroalimentación visual y auditiva: Resaltado de notas correctas e incorrectas y sonidos de confirmación opcionales.
+    - Elementos de gamificación: Implementación de medallas, puntajes o niveles para incentivar la práctica constante.
+    - Compatibilidad con diferentes navegadores: Optimización para Chrome, Firefox y Edge en su fase inicial.
+
 ---
 
 9. #### **Otros requerimientos del producto**{#otros-requerimientos-del-producto}
