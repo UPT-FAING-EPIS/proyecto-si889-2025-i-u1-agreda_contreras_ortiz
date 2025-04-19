@@ -341,8 +341,7 @@ Integrantes:
     5. ##### **Licenciamiento e instalación**{#licenciamiento-e-instalación}
 
       - PianoRise estará disponible como una aplicación web accesible a través de cualquier navegador moderno en computadoras.
-      - No requerirá instalación, permitiendo su uso inmediato desde la web oficial.
-      - El acceso estará sujeto a la aceptación de los Términos y Condiciones, incluyendo políticas de privacidad y uso responsable.
+      - No requerirá instalación, permitiendo su uso inmediato desde la web oficial.le.
       - La plataforma se distribuirá bajo una licencia gratuita para los usuarios finales, con todos los derechos reservados al equipo desarrollador.
 
 ---
@@ -350,10 +349,9 @@ Integrantes:
 5. #### **Características del producto**{#características-del-producto}
 
       - Interfaz intuitiva y fácil de usar, pensada para facilitar la experiencia del usuario, con una interfaz clara y organizada. Los botones y menús están diseñados para que los estudiantes puedan acceder fácilmente a las funcionalidades principales sin distracciones, optimizando el aprendizaje desde el primer uso.
-      - Sistema de reconocimiento de audio permite detectar las notas que el estudiante está tocando en su piano o teclado. La plataforma analiza el sonido en tiempo real y verifica si la nota es correcta, brindando retroalimentación inmediata para mejorar la precisión y técnica del usuario.
+      - Sistema de reconocimiento de audio permite detectar las notas que el estudiante está tocando en su piano o teclado. La plataforma analiza el sonido en tiempo real y verifica si la nota es correcta, brindando retroalimentación inmediata para mejorar la precisión del usuario.
       - Sistema de avance progresivo. Cada canción o ejercicio se divide en segmentos (1/8, 2/8, 3/8, etc.), y a medida que el usuario toca las notas correctamente, su progreso se actualiza visualmente, incentivando la práctica continua.
       - Selección de canciones sencillas y acordes básicos para principiantes. Estas melodías están estructuradas de manera progresiva para que el estudiante desarrolle sus habilidades paso a paso.
-      - Elementos de gamificación como niveles, medallas y puntuaciones según la precisión en la ejecución. La retroalimentación en pantalla permite al estudiante corregir errores y mejorar su desempeño de manera autónoma.
       - La plataforma permite seleccionar el micrófono del dispositivo o conectar un micrófono externo para mejorar la detección del sonido, asegurando una mayor precisión en la identificación de las notas.
 
 ---
@@ -380,19 +378,17 @@ Integrantes:
 
     - Retroalimentación Visual y Auditiva
       - La aplicación debe resaltar visualmente las notas correctas y mostrar alertas cuando el usuario cometa errores.
-      - Debe incluir una opción de retroalimentación auditiva, como sonidos de confirmación para notas correctas y errores.
 
     - Progresión y Evaluación del Usuario
       - PianoRise debe mostrar el avance del usuario en fracciones de 1/8, 2/8, 3/8, etc., conforme se toquen correctamente las notas de la canción.
-      - La plataforma debe permitir la repetición de ejercicios para mejorar la precisión y evaluar la evolución del usuario en cada sesión.
+      - La plataforma debe permitir la repetición de ejercicios para mejorar la precisión del usuario en cada sesión.
 
     - Galería de Canciones y Ejercicios
       - La aplicación debe contar con una selección inicial de canciones sencillas y ejercicios progresivos para el aprendizaje.
-      - Cada canción debe incluir información sobre su nivel de dificultad y tempo recomendado.
+      - Cada canción debe incluir información sobre su nivel de dificultad.
 
     - Compatibilidad y Accesibilidad
       - La plataforma debe funcionar correctamente en navegadores modernos y con diferentes tipos de micrófonos.
-      - Debe ser accesible para usuarios con diferentes niveles de conocimiento musical, desde principiantes hasta intermedios.
 
     - Políticas Claras de Uso
       - Se debe garantizar la privacidad y seguridad de la información, sin requerir datos personales sensibles para su uso.
@@ -409,7 +405,6 @@ Integrantes:
     - Reconocimiento de notas en tiempo real: El sistema debe detectar con precisión las notas tocadas y brindar retroalimentación inmediata.
     - Interfaz gráfica de visualización de notas: La plataforma debe mostrar en pantalla qué notas deben ejecutarse y si han sido tocadas correctamente.
     - Sistema de progreso fraccionado: La implementación del avance en fracciones (1/8, 2/8, etc.) es clave para mantener la motivación del usuario.
-    - Modo de práctica guiado y libre: Los usuarios deben poder elegir entre recibir orientación paso a paso o tocar libremente con evaluación en tiempo real.
     - Compatibilidad con micrófonos estándar: La plataforma debe ser capaz de procesar audio de micrófonos integrados en computadoras o externos.
 
   Funcionalidades Secundarias
@@ -417,8 +412,7 @@ Integrantes:
   Estas características mejoran la experiencia del usuario, pero su ausencia no impediría el uso básico de la plataforma:
 
     - Galería de canciones básicas y ejercicios progresivos: Se incluirá un repertorio inicial de canciones, priorizando aquellas que faciliten el aprendizaje.
-    - Retroalimentación visual y auditiva: Resaltado de notas correctas e incorrectas y sonidos de confirmación opcionales.
-    - Elementos de gamificación: Implementación de medallas, puntajes o niveles para incentivar la práctica constante.
+    - Retroalimentación visual y auditiva: Resaltado de notas correctas e incorrectas.
     - Compatibilidad con diferentes navegadores: Optimización para Chrome, Firefox y Edge en su fase inicial.
 
 ---
