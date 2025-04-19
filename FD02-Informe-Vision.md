@@ -402,18 +402,19 @@ Integrantes:
   Funcionalidades Esenciales 
   
   Estas características son fundamentales para que la plataforma cumpla con su propósito principal:
-    - Reconocimiento de notas en tiempo real: El sistema debe detectar con precisión las notas tocadas y brindar retroalimentación inmediata.
-    - Interfaz gráfica de visualización de notas: La plataforma debe mostrar en pantalla qué notas deben ejecutarse y si han sido tocadas correctamente.
-    - Sistema de progreso fraccionado: La implementación del avance en fracciones (1/8, 2/8, etc.) es clave para mantener la motivación del usuario.
-    - Compatibilidad con micrófonos estándar: La plataforma debe ser capaz de procesar audio de micrófonos integrados en computadoras o externos.
+
+  - Reconocimiento de notas en tiempo real: El sistema debe detectar con precisión las notas tocadas y brindar retroalimentación inmediata.
+  - Interfaz gráfica de visualización de notas: La plataforma debe mostrar en pantalla qué notas deben ejecutarse y si han sido tocadas correctamente.
+  - Sistema de progreso fraccionado: La implementación del avance en fracciones (1/8, 2/8, etc.) es clave para mantener la motivación del usuario.
+  - Compatibilidad con micrófonos estándar: La plataforma debe ser capaz de procesar audio de micrófonos integrados en computadoras o externos.
 
   Funcionalidades Secundarias
   
   Estas características mejoran la experiencia del usuario, pero su ausencia no impediría el uso básico de la plataforma:
 
-    - Galería de canciones básicas y ejercicios progresivos: Se incluirá un repertorio inicial de canciones, priorizando aquellas que faciliten el aprendizaje.
-    - Retroalimentación visual y auditiva: Resaltado de notas correctas e incorrectas.
-    - Compatibilidad con diferentes navegadores: Optimización para Chrome, Firefox y Edge en su fase inicial.
+  - Galería de canciones básicas y ejercicios progresivos: Se incluirá un repertorio inicial de canciones, priorizando aquellas que faciliten el aprendizaje.
+  - Retroalimentación visual y auditiva: Resaltado de notas correctas e incorrectas.
+  - Compatibilidad con diferentes navegadores: Optimización para Chrome, Firefox y Edge en su fase inicial.
 
 ---
 
