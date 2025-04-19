@@ -144,7 +144,7 @@ Este documento establece los objetivos funcionales y técnicos del sistema, así
    4. ##### **Organigrama** {#organigrama}
 <center>
 
-   ![./media/Organigrama.png](./media/Organigrama.png){ width=320}
+   ![width:320](./media/Organigrama.png)
    **Gráfico 01\.** Organigrama  de la Institución Educativa Privada Verdad y Vida.
    ***Fuente:** Elaboración propia.*
 
@@ -291,7 +291,7 @@ Este documento establece los objetivos funcionales y técnicos del sistema, así
          El diagrama de clases representa la estructura lógica del sistema PianoRise, una plataforma educativa orientada al aprendizaje del piano. El modelo define entidades clave como Usuario, Alumno, Docente, Aula, Cancion e Historial, así como sus relaciones e interacciones mediante controladores específicos. Los alumnos y docentes se autentican como usuarios del sistema y se agrupan en aulas virtuales donde se asignan canciones para su práctica. A través de la clase Historial, se registra el desempeño del alumno en cada canción asignada, incluyendo su puntuación, errores y fecha. El sistema cuenta con controladores que gestionan operaciones como la creación de aulas, asignación de canciones, registro de usuarios y seguimiento del aprendizaje, permitiendo una administración eficiente y escalable del proceso educativo.
 <center>
 
-![./media/DiagramaClases.png](./media/DiagramaClases.png){width=500}
+![width=500](./media/DiagramaClases.png)
 
 **Diagrama 18:** El Diagrama de Clases muestra la interacción entre usuarios, administradores, empresas, egresados, ofertas laborales y postulaciones.
 </center>
