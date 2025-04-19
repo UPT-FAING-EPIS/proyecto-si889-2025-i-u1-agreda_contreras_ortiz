@@ -340,6 +340,10 @@ Integrantes:
 
     5. ##### **Licenciamiento e instalación**{#licenciamiento-e-instalación}
 
+      - PianoRise estará disponible como una aplicación web accesible a través de cualquier navegador moderno en computadoras.
+      - No requerirá instalación, permitiendo su uso inmediato desde la web oficial.
+      - El acceso estará sujeto a la aceptación de los Términos y Condiciones, incluyendo políticas de privacidad y uso responsable.
+      - La plataforma se distribuirá bajo una licencia gratuita para los usuarios finales, con todos los derechos reservados al equipo desarrollador.
 
 ---
 
