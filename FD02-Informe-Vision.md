@@ -425,25 +425,15 @@ Integrantes:
 
 9. #### **Otros requerimientos del producto**{#otros-requerimientos-del-producto}
 
-    1. ##### **Estándares legales**{#estándares-legales}
+    1. ##### **Estándares legales**{#estándares-legales}: Cumplimiento con regulaciones de privacidad de datos personales y respeto a las normativas de propiedad intelectual.
 
-    2. ##### **Estándares de comunicación**{#estándares-de-comunicación}
+    2. ##### **Estándares de comunicación**{#estándares-de-comunicación}: Garantizar la disponibilidad y fiabilidad del servicio, asegurando un tiempo de actividad superior al 98%.
 
-    3. ##### **Estándares de cumplimiento de la plataforma**{#estándares-de-cumplimiento-de-la-plataforma}
+    3. ##### **Estándares de cumplimiento de la plataforma**{#estándares-de-cumplimiento-de-la-plataforma}: Implementación de medidas de seguridad para proteger la información de los usuarios mediante encriptación de datos y autenticación segura.
 
-    4. ##### **Estándares de calidad y seguridad**{#estándares-de-calidad-y-seguridad}
+    4. ##### **Estándares de calidad y seguridad**{#estándares-de-calidad-y-seguridad}: Preparar la plataforma para soportar un crecimiento en el número de usuarios, datos y canciones, manteniendo un rendimiento óptimo.
 
   ---
 
 10. #### **CONCLUSIONES**{#conclusiones}
-
----
-
-11. #### **RECOMENDACIONES**{#recomendaciones}
----
-
-12. #### **BIBLIOGRAFÍA**{#bibliografía}
----
-
-13. #### **WEBGRAFÍA**{#webgrafía}
 
