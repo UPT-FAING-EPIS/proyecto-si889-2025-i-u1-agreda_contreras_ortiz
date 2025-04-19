@@ -1,3 +1,6 @@
+---
+marp: true
+---
 <center>
 
 [comment]: <img src="./media/media/image1.png" style="width:1.088in;height:1.46256in" alt="escudo.png" />
@@ -25,9 +28,8 @@ Integrantes:
 **Tacna – Perú**  
 **2025**
 </center>
-<div style="page-break-after: always; visibility: hidden"> 
-\pagebreak 
-</div>
+
+---
 
 **Plataforma Web Interactiva para el Aprendizaje Autónomo del Piano con Reconocimiento de Notas en Tiempo Real \- PianoRise**
 
@@ -40,6 +42,7 @@ Integrantes:
 | Versión | Hecha por | Revisada por | Aprobada por | Fecha | Motivo |
 | 1.0 |  |  |  | 29/03/2025 | Versión Original |
 
+---
 **ÍNDICE GENERAL**
 
 [Introducción](#introducción)
@@ -110,6 +113,8 @@ Integrantes:
 
 [Recomendaciones](#recomendaciones)
 
+---
+
 ## **Documento de Especificación de Requerimientos de Software**
 
 ### **Introducción** {#introducción}
@@ -121,6 +126,9 @@ En respuesta a la necesidad de ofrecer una herramienta accesible, práctica y mo
 Además, PianoRise se compromete a brindar una experiencia didáctica centrada en la práctica, ofreciendo un repertorio de canciones básicas, ejercicios progresivos y una estructura de aprendizaje flexible. Todo ello se desarrollará bajo tecnologías web modernas, permitiendo el acceso desde navegadores sin necesidad de instalación adicional.
 
 Este documento establece los objetivos funcionales y técnicos del sistema, así como el alcance del proyecto, incluyendo las funcionalidades que serán implementadas en esta primera versión y las limitaciones correspondientes. Su propósito es servir como guía para el diseño, desarrollo, validación y mantenimiento de la plataforma PianoRise.
+
+
+---
 
 1. #### **Generalidades de la Empresa** {#generalidades-de-la-empresa}
 
@@ -139,11 +147,13 @@ Este documento establece los objetivos funcionales y técnicos del sistema, así
    4. ##### **Organigrama** {#organigrama}
 <center>
 
-   ![./media/Organigrama.png](./media/Organigrama.png)
+   ![./media/Organigrama.png](./media/Organigrama.png){ width=320}
    **Gráfico 01\.** Organigrama  de la Institución Educativa Privada Verdad y Vida.
    ***Fuente:** Elaboración propia.*
 
 </center>
+
+---
 
 2. #### Visionamiento de la Empresa
 
@@ -207,13 +217,15 @@ Este documento establece los objetivos funcionales y técnicos del sistema, así
    6. ##### **Información obtenida del Levantamiento de Información:**{#información-obtenida-del-levantamiento-de-información}
 
 
+---
+
 3. #### Análisis de Procesos
 
    1) ##### **Diagrama del Proceso Actual \- Diagrama de actividades** {#diagrama-del-proceso-actual---diagrama-de-actividades}
 
 
    2) #####  **Diagrama del Proceso Propuesto \- Diagrama de actividades Inicial** {#diagrama-del-proceso-propuesto---diagrama-de-actividades-inicial}
-
+---
 
 4. #### Especificación de Requerimientos de Software
 
@@ -249,7 +261,7 @@ Este documento establece los objetivos funcionales y técnicos del sistema, así
    | RF-09 | Gestionar Docentes | Permitir al administrador del sistema registrar nuevos docentes creando sus credenciales de acceso definiendo su nombre, apellido, correo y contraseña. Además, de poder editar y deshabilitar. | Alta |
 
    4) ##### **Reglas de Negocio** {#reglas-de-negocio}
-
+---
 
 5. #### Fases de Desarrollo
 
@@ -282,10 +294,12 @@ Este documento establece los objetivos funcionales y técnicos del sistema, así
          El diagrama de clases representa la estructura lógica del sistema PianoRise, una plataforma educativa orientada al aprendizaje del piano. El modelo define entidades clave como Usuario, Alumno, Docente, Aula, Cancion e Historial, así como sus relaciones e interacciones mediante controladores específicos. Los alumnos y docentes se autentican como usuarios del sistema y se agrupan en aulas virtuales donde se asignan canciones para su práctica. A través de la clase Historial, se registra el desempeño del alumno en cada canción asignada, incluyendo su puntuación, errores y fecha. El sistema cuenta con controladores que gestionan operaciones como la creación de aulas, asignación de canciones, registro de usuarios y seguimiento del aprendizaje, permitiendo una administración eficiente y escalable del proceso educativo.
 <center>
 
-![./media/DiagramaClases.png](./media/DiagramaClases.png)
+![./media/DiagramaClases.png](./media/DiagramaClases.png){width=500}
 
 **Diagrama 18:** El Diagrama de Clases muestra la interacción entre usuarios, administradores, empresas, egresados, ofertas laborales y postulaciones.
 </center>
+
+---
 
 ### **Conclusiones**
 
