@@ -349,6 +349,13 @@ Integrantes:
 
 5. #### **Características del producto**{#características-del-producto}
 
+      - Interfaz intuitiva y fácil de usar, pensada para facilitar la experiencia del usuario, con una interfaz clara y organizada. Los botones y menús están diseñados para que los estudiantes puedan acceder fácilmente a las funcionalidades principales sin distracciones, optimizando el aprendizaje desde el primer uso.
+      - Sistema de reconocimiento de audio permite detectar las notas que el estudiante está tocando en su piano o teclado. La plataforma analiza el sonido en tiempo real y verifica si la nota es correcta, brindando retroalimentación inmediata para mejorar la precisión y técnica del usuario.
+      - Sistema de avance progresivo. Cada canción o ejercicio se divide en segmentos (1/8, 2/8, 3/8, etc.), y a medida que el usuario toca las notas correctamente, su progreso se actualiza visualmente, incentivando la práctica continua.
+      - Selección de canciones sencillas y acordes básicos para principiantes. Estas melodías están estructuradas de manera progresiva para que el estudiante desarrolle sus habilidades paso a paso.
+      - Elementos de gamificación como niveles, medallas y puntuaciones según la precisión en la ejecución. La retroalimentación en pantalla permite al estudiante corregir errores y mejorar su desempeño de manera autónoma.
+      - La plataforma permite seleccionar el micrófono del dispositivo o conectar un micrófono externo para mejorar la detección del sonido, asegurando una mayor precisión en la identificación de las notas.
+
 ---
 
 6. #### **Restricciones**{#restricciones}
