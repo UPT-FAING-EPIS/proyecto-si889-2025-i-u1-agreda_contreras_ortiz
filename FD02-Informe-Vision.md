@@ -437,3 +437,11 @@ Integrantes:
 
 10. #### **CONCLUSIONES**{#conclusiones}
 
+    PianoRise se establece como una herramienta digital enfocada en el aprendizaje autónomo del piano, proporcionando a los principiantes una plataforma interactiva que combina accesibilidad y tecnología de reconocimiento de audio. La integración de una interfaz intuitiva, un sistema de avance progresivo y retroalimentación en tiempo real permite que los usuarios mejoren su ejecución.
+
+    El proyecto se centra exclusivamente en el piano, evitando la incorporación de otros instrumentos o características avanzadas como la evaluación de velocidad o teoría musical compleja. Además, su desarrollo se limitará a una aplicación web, asegurando compatibilidad con navegadores modernos en computadoras, sin considerar versiones móviles nativas.
+
+    A nivel tecnológico, PianoRise dependerá de bibliotecas especializadas para el procesamiento de audio, garantizando un reconocimiento eficiente de notas. Sin embargo, su precisión estará sujeta a factores externos como la calidad del micrófono y el ruido ambiental.
+
+    Finalmente, el éxito del proyecto dependerá de la implementación efectiva de sus funcionalidades clave y la recepción de los usuarios. A través de mejoras iterativas basadas en pruebas y retroalimentación, PianoRise se podrá consolidar como una solución innovadora para el aprendizaje del piano.
+
