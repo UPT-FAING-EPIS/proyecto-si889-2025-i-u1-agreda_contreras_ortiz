@@ -331,10 +331,15 @@ Integrantes:
 
 
     3. ##### **Suposiciones y dependencias**{#suposiciones-y-dependencias}
+      - Se asume que el desarrollo de la plataforma se realizará en un plazo ajustado, lo que puede limitar la inclusión de funciones avanzadas o ajustes personalizados según pruebas de usuario.
+      - La precisión del reconocimiento dependerá de la calidad del micrófono del dispositivo y del entorno acústico, lo cual representa un reto para garantizar una experiencia consistente.
+      - La selección de canciones y ejercicios dependerá del acceso a material libre de derechos o con licencias adecuadas para uso educativo.
+      - La correcta ejecución del reconocimiento de audio y los componentes gráficos interactivos depende del soporte de los navegadores utilizados. 
 
     4. ##### **Costos y precios**{#costos-y-precios}
 
     5. ##### **Licenciamiento e instalación**{#licenciamiento-e-instalación}
+
 
 ---
 
