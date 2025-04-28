@@ -1,0 +1,39 @@
+name: Terraform Full Deploy
+
+on:
+  workflow_dispatch:
+    inputs:
+      tfvars_file:
+        description: 'Nombre del archivo .tfvars que quieres usar'
+        required: true
+        default: 'terraform.tfvars'
+
+jobs:
+  terraform:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout código
+      uses: actions/checkout@v4
+
+    - name: Configurar Azure CLI
+      uses: azure/login@v2
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+    - name: Inicializar Terraform
+      working-directory: infra
+      run: terraform init
+
+    - name: Validar Terraform
+      working-directory: infra
+      run: terraform validate
+
+    - name: Planear infraestructura
+      working-directory: infra
+      run: terraform plan -var-file=${{ github.event.inputs.tfvars_file }}
+
+    - name: Aplicar cambios
+      working-directory: infra
+      run: terraform apply -auto-approve -var-file=${{ github.event.inputs.tfvars_file }}
+
