@@ -44,7 +44,7 @@ jobs:
 
     # Opcional: Subir el archivo generado (SVG o DOT) a GitHub como artefacto
     - name: Upload callgraph.svg as Artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v3.1.2
       with:
         name: callgraph-svg
         path: callgraph.svg
