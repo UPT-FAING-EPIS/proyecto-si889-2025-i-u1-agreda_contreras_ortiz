@@ -6,3 +6,4 @@ librosa
 pylint
 pyan3==1.1.1
 graphviz
+pydeps
