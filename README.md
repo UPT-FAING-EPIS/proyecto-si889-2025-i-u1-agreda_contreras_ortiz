@@ -87,6 +87,6 @@ En GitHub ➔ pestaña **Actions**:
 
 - 🌐 El despliegue aplica recursos en la **suscripción** donde fue creado el Service Principal.
 - 💰 Los cambios de infraestructura son visibles usando Infracost en Pull Requests configurado en el `infracost.yml`.
-
+- 🛠️ Pendiente: Agregar un workflow que permita enviar automáticamente el contenedor al Azure App Service tras una build exitosa.
 ---
 
