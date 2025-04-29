@@ -13,7 +13,6 @@ resource "azurerm_app_service_plan" "asp" {
     size = "F1"
   }
 
-  # Es necesario marcarlo como "Linux" o "Windows" explícitamente a veces
 }
 
 resource "azurerm_linux_web_app" "webapps" {
