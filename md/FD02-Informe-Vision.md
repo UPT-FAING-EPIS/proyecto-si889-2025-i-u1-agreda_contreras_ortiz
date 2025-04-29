@@ -320,11 +320,9 @@ Al digitalizar el proceso de enseñanza musical, PianoRise elimina la necesidad 
     1. ##### **Perspectiva del producto**{#perspectiva-del-producto}
 
 
-        **PianoRise** será una plataforma web interactiva orientada a facilitar el aprendizaje del piano para principiantes. Su diseño se centrará en una experiencia práctica y progresiva, combinando tecnología de reconocimiento de audio con una interfaz amigable que guíe al usuario en cada paso.
+        **PianoRise** será una plataforma web interactiva orientada a facilitar el aprendizaje del piano para principiantes. Su diseño se centrará en una experiencia práctica y progresiva, combinando tecnología de reconocimiento de audio con una interfaz amigable que guíe al usuario en cada paso. La plataforma permitirá a los estudiantes visualizar en pantalla las notas a ejecutar, recibir retroalimentación inmediata sobre su interpretación y monitorear su progreso a través de un sistema de avance fraccionado.
 
-        La plataforma permitirá a los estudiantes visualizar en pantalla las notas a ejecutar, recibir retroalimentación inmediata sobre su interpretación y monitorear su progreso. A través de una metodología didáctica y práctica, PianoRise busca hacer que el estudio del piano sea más accesible, flexible y motivador, sin necesidad de clases presenciales o conocimientos previos.
-
-        El producto está dirigido tanto a estudiantes autodidactas como a docentes que deseen usarlo como recurso complementario en el aula.
+        A través de una metodología didáctica y práctica, PianoRise busca hacer que el estudio del piano sea más accesible, flexible y motivador, sin necesidad de clases presenciales o conocimientos previos. El producto está dirigido tanto a estudiantes autodidactas como a docentes que deseen usarlo como recurso complementario.
 
 
     2. ##### **Resumen de capacidades**{#resumen-de-capacidades}
