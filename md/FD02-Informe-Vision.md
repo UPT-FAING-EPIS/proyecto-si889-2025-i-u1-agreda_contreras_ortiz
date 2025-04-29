@@ -327,14 +327,35 @@ Al digitalizar el proceso de enseñanza musical, PianoRise elimina la necesidad 
 
     2. ##### **Resumen de capacidades**{#resumen-de-capacidades}
 
-        **PianoRise proporcionará:**
+        PianoRise proporcionará un conjunto de funcionalidades esenciales que permitirán a los usuarios interactuar de manera eficiente con la plataforma y cumplir los objetivos educativos planteados. A continuación se detallan las capacidades principales del sistema:
 
-        - Interfaz intuitiva y centrada en el usuario para facilitar el acceso a los contenidos y ejercicios.  
-        - Visualización de las notas que deben tocarse durante la práctica.  
-        - Reconocimiento de audio, permitiendo detectar las notas ejecutadas por el usuario y compararlas con las esperadas.  
-        - Retroalimentación inmediata para reforzar el aprendizaje correcto de las notas y acordes.  
-        - Repertorio de ejercicios y canciones básicas organizadas por objetivos.  
-        - Historial de progreso y logros obtenidos por cada usuario registrado.
+        - **Gestión de usuarios y autenticación:**
+          <br>
+          El sistema almacenará el avance de los estudiantes únicamente cuando completen satisfactoriamente una canción, registrando además la cantidad de errores cometidos durante la ejecución.
+        - **Almacenamiento del progreso:**
+          <br>
+          El sistema almacenará el avance de los estudiantes únicamente cuando completen satisfactoriamente una canción, registrando además la cantidad de errores cometidos durante la ejecución.
+        - **Reconocimiento de notas musicales:**
+          <br>
+          PianoRise capturará el audio en tiempo real a través del micrófono, identificando las notas tocadas por el estudiante y comparándolas con las notas esperadas en cada ejercicio.
+        - **Selección y práctica de canciones:**
+          <br>
+          Los estudiantes podrán seleccionar canciones del repertorio personalizado de su aula para practicarlas, recibiendo retroalimentación inmediata sobre su ejecución.
+        - **Gestión del repertorio de canciones:**  
+          <br>
+          Los administradores del sistema podrán agregar nuevas canciones, editar información de las existentes o deshabilitar canciones del repositorio general utilizado para las aulas.
+        - **Monitoreo del progreso estudiantil:**
+          <br>
+          Los docentes tendrán la capacidad de visualizar el estado de las canciones completadas y no completadas por sus estudiantes, junto con la puntuación obtenida en cada actividad.
+        - **Generación de reportes de desempeño:**
+          <br>
+          El sistema permitirá generar reportes con métricas y gráficos que reflejen el desempeño general de los estudiantes de un aula, apoyando el análisis pedagógico del proceso de aprendizaje.
+        - **Gestión de aulas:**
+          <br>
+          Los docentes podrán crear aulas virtuales, organizar a sus estudiantes, seleccionar canciones específicas para cada aula, y administrar códigos de ingreso automáticos para su asignación.
+        - **Gestión de docentes:**
+          <br>
+          Los administradores del sistema podrán registrar nuevos docentes, definir sus credenciales de acceso, editar sus datos o deshabilitar usuarios cuando sea necesario.
 
 
     3. ##### **Suposiciones y dependencias**{#suposiciones-y-dependencias}
