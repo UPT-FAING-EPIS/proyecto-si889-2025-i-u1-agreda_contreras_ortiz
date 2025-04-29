@@ -460,3 +460,18 @@ Integrantes:
         - TIR = 4.37%
         - Como TIR > tasa de interés (1.5%), el proyecto es rentable y debe aceptarse, ya que supera el costo de oportunidad.
 
+  6. ##### **Conclusiones** {#conclusiones}
+
+      El proyecto LinkJob representa una solución innovadora para la vinculación laboral de los egresados de la Escuela Profesional de Ingeniería de Sistemas de la UPT. A través de una plataforma web con inteligencia artificial, se optimiza el proceso de emparejamiento entre egresados y ofertas laborales, mejorando significativamente la precisión y rapidez en la toma de decisiones del área de empleabilidad.
+      
+      Desde el punto de vista operativo, la universidad cuenta con la infraestructura y capacidades necesarias para mantener la plataforma funcionando de forma continua, garantizando su sostenibilidad. La solución genera beneficios tanto para los usuarios como para el área académica y de empleabilidad, al centralizar y facilitar la gestión de información relevante.
+      
+      Legalmente, LinkJob se ajusta a la Ley N° 29733 de Protección de Datos Personales, resguardando la privacidad de la información de egresados y empresas. Además, se utilizan plataformas, librerías y servicios bajo licencias válidas, cumpliendo con los aspectos de propiedad intelectual.
+      
+      Socialmente, el proyecto impacta de manera positiva en la comunidad universitaria, al facilitar oportunidades laborales para los egresados, fomentar la transparencia del proceso de empleabilidad y reforzar el compromiso institucional con el desarrollo profesional de sus estudiantes.
+      
+      A nivel ambiental, al tratarse de una plataforma 100% digital, se promueve la reducción del uso de papel y recursos físicos, alineándose con iniciativas sostenibles que minimizan la huella ecológica institucional.
+      
+      Finalmente, el análisis financiero confirma su viabilidad. La Relación Beneficio/Costo (B/C) es de 1.38, lo que indica que por cada sol invertido se generan S/ 1.38 en beneficios. El Valor Actual Neto (VAN) es de S/ 4,282.91, confirmando que los beneficios superan ampliamente los costos. La Tasa Interna de Retorno (TIR) alcanza el 11.40%, superando la tasa de interés del 1.5%, lo que respalda la rentabilidad del proyecto.
+      
+      En conjunto, estos resultados demuestran que LinkJob es una inversión estratégica, rentable y sostenible para la universidad.
