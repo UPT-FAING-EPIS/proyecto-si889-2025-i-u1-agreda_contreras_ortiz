@@ -333,7 +333,7 @@ Integrantes:
 
         </center>
 
-    4. ##### **Factibilidad Operativa** {#factibilidad-operativa}
+    3. ##### **Factibilidad Operativa** {#factibilidad-operativa}
 
         La factibilidad operativa analiza si el sistema propuesto puede ser implementado, mantenido y utilizado de forma efectiva por la organización y los usuarios finales. En el caso de “PianoRise”, el sistema brindará beneficios significativos en el proceso de enseñanza y evaluación de habilidades musicales.
 
@@ -353,7 +353,7 @@ Integrantes:
         * Se considera un uso liviano a moderado del sistema (baja concurrencia simultánea), por lo que no se requieren recursos tecnológicos de alta demanda.  
         * La aplicación cuenta con paneles de control y módulos de práctica amigables, que no requieren entrenamiento técnico especializado para su operación.
 
-    5. ##### **Factibilidad Legal** {#factibilidad-legal}
+    4. ##### **Factibilidad Legal** {#factibilidad-legal}
 
         El sistema “PianoRise” cumple con las normativas legales y reglamentos nacionales relacionados con el uso de software educativo y protección de datos personales. No se detectan conflictos legales para su implementación.
 
@@ -364,7 +364,7 @@ Integrantes:
         * Uso de software adecuado: El sistema se desarrollará en ASP.NET (.NET Framework) y Python (para el reconocimiento de notas), respetando licencias de uso de software privativo y de código abierto donde corresponda.  
         * Contratos con terceros: Se respetarán los términos de servicio de servicios como Azure (alojamiento de Servicio de Reconocimiento de Notas y Servicio de Cursos de Música), NeonTech (alojamiento de la base de datos PostgreSQL).
 
-    6. ##### **Factibilidad Social** {#factibilidad-social}
+    5. ##### **Factibilidad Social** {#factibilidad-social}
 
         El proyecto “PianoRise” tiene un impacto social positivo al fortalecer la formación musical y promover la innovación educativa mediante el uso de nuevas tecnologías.
 
@@ -374,7 +374,7 @@ Integrantes:
         * Aceptación cultural: No existen barreras culturales o éticas, ya que el sistema mejora el acceso a métodos de enseñanza innovadores en el ámbito musical.  
         * Inclusión digital: Permite que alumnos de distintos niveles accedan a prácticas musicales asistidas digitalmente, reduciendo brechas tecnológicas y educativas.
 
-    7. ##### **Factibilidad Ambiental** {#factibilidad-ambiental}
+    6. ##### **Factibilidad Ambiental** {#factibilidad-ambiental}
 
         El sistema “PianoRise” es una solución completamente digital, por lo que su impacto ambiental es mínimo
 
@@ -384,3 +384,27 @@ Integrantes:
         * Alojamiento en la nube: El uso de servidores en la nube elimina la necesidad de infraestructura física local, reduciendo consumo energético adicional.  
         * No se generan residuos: No se utilizan materiales contaminantes ni recursos físicos desechables en su operación.
 
+  5. ##### **Analisis Financiero** {#analisis-financiero}
+
+      5.1 Justificación de la Inversión
+
+        5.1.1 Beneficios del Proyecto:
+
+        Beneficios tangibles:
+
+        - Reducción de costos operativos en la búsqueda de candidatos, ya que el sistema filtra, pondera y selecciona egresados automáticamente.
+        - Reducción del tiempo de selección de egresados para prácticas o empleos, lo que reduce la carga laboral del departamento encargado de inserción laboral.
+        - Ahorro en materiales gracias a la digitalización del proceso de vinculación laboral.
+        - Ahorro en publicidad para captar postulantes (menos necesidad de anuncios externos).
+        - Reducción de personal eventual o temporal que normalmente colabora en los procesos de selección.
+        - Aumento de la empleabilidad de los egresados, lo que mejora la reputación de la Escuela Profesional de Ingeniería de Sistemas.
+        
+        Beneficios intangibles:
+
+        - Mejor imagen institucional, al mostrar un sistema moderno de apoyo a los egresados.
+        - Mayor satisfacción de egresados y empresas gracias a procesos más rápidos y personalizados.
+        - Mayor control, trazabilidad y gestión de la información en procesos de selección.
+        - Facilita el cumplimiento de indicadores de empleabilidad de egresados ante entes supervisores (como SUNEDU).
+        - Valor agregado a la formación académica del estudiante, al contar con una plataforma exclusiva de vinculación laboral.
+        - Fomento del vínculo universidad-empresa.
+        - Mejora en la toma de decisiones, gracias a los reportes generados por el sistema.
