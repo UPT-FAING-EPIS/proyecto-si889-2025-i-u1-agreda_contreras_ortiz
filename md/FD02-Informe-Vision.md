@@ -2,7 +2,7 @@
 
 [comment]: <img src="./media/media/image1.png" style="width:1.088in;height:1.46256in" alt="escudo.png" />
 
-![./media/media/image1.png](./media/logo-upt.png)
+![./media/media/image1.png](../media/logo-upt.png)
 
 **UNIVERSIDAD PRIVADA DE TACNA**
 
@@ -114,45 +114,67 @@ Integrantes:
 1. #### Introducción {#introducción}
 
     El aprendizaje del piano representa un reto común para muchos principiantes, especialmente cuando no cuentan con una guía adecuada, retroalimentación inmediata o acceso a recursos educativos estructurados. A pesar del creciente interés por desarrollar habilidades musicales de forma autodidacta, las herramientas tradicionales como libros, tutoriales en video o aplicaciones básicas no siempre responden a las necesidades prácticas de quienes están dando sus primeros pasos en el mundo musical.
+En respuesta a esta problemática, nace PianoRise, una plataforma web interactiva diseñada para facilitar el aprendizaje autónomo del piano a través de una experiencia didáctica, intuitiva y progresiva. El proyecto combina tecnologías de reconocimiento de audio, visualización de notas musicales, y un sistema de avance por fracciones que permite a los estudiantes seguir su progreso de forma clara y motivadora.
+Este documento de visión tiene como finalidad presentar los objetivos generales del proyecto, identificar a los actores clave, definir el alcance y describir las características fundamentales de la solución propuesta. Asimismo, se detallan las necesidades del mercado, las oportunidades de negocio, las restricciones técnicas y los factores críticos que condicionarán el desarrollo del sistema.
+Con PianoRise, se busca democratizar el acceso a la enseñanza del piano, brindando una alternativa moderna y accesible que impulse el aprendizaje musical en diversos contextos, especialmente en instituciones educativas como la Institución Educativa Privada Verdad y Vida – Veritas et Vita, cliente principal de este proyecto.
 
-    En respuesta a esta problemática, nace PianoRise, una plataforma web interactiva diseñada para facilitar el aprendizaje autónomo del piano a través de una experiencia didáctica, intuitiva y progresiva. El proyecto combina tecnologías de reconocimiento de audio en tiempo real, visualización de notas musicales, y un sistema de avance por fracciones que permite a los estudiantes seguir su progreso de forma clara y motivadora.
-
-    Este documento de visión tiene como finalidad presentar los objetivos generales del proyecto, identificar a los actores clave, definir el alcance y describir las características fundamentales de la solución propuesta. Asimismo, se detallan las necesidades del mercado, las oportunidades de negocio, las restricciones técnicas y los factores críticos que condicionarán el desarrollo del sistema.
-
-    Con PianoRise, se busca democratizar el acceso a la enseñanza del piano, brindando una alternativa moderna y accesible que impulse el aprendizaje musical en diversos contextos, especialmente en instituciones educativas como la Institución Educativa Privada Verdad y Vida – Veritas et Vita, cliente principal de este proyecto.
 
 
 
     1. ####  **Propósito**{#propósito}
 
-        El objetivo principal de **PianoRise** es ofrecer una solución digital innovadora para el aprendizaje autónomo del piano, utilizando tecnologías interactivas que optimicen la experiencia del usuario, especialmente en contextos educativos o de autoformación.
+        El objetivo principal de PianoRise es ofrecer una solución digital innovadora que facilite el aprendizaje del piano tanto de forma autónoma como en entornos educativos presenciales. Utilizando tecnologías interactivas como el reconocimiento de audio y la retroalimentación continua, la plataforma optimiza la experiencia del usuario y fomenta un aprendizaje progresivo y motivador.
+PianoRise está diseñado para apoyar a estudiantes que se inician en el mundo musical, proporcionando un entorno práctico, accesible y didáctico, sin requerir conocimientos previos en teoría musical. Su enfoque combina la autoformación con el acompañamiento en clase, permitiendo a los alumnos avanzar a su propio ritmo mientras reciben guía y seguimiento de sus docentes.
+Los propósitos específicos del sistema son:
+Brindar una herramienta intuitiva y accesible para el aprendizaje del piano en contextos de educación formal y autoformación.
+Utilizar reconocimiento de audio para detectar las notas tocadas por el usuario y compararlas con las notas esperadas.
+Implementar un sistema de avance gradual basado en la precisión de ejecución, mediante un esquema de progreso fraccionado.
+Presentar ejercicios interactivos y canciones sencillas que fomenten la motivación y la práctica constante.
+Apoyar a los docentes en la supervisión del progreso de los alumnos, facilitando el seguimiento individualizado del aprendizaje musical.sencillas que motiven al usuario en su proceso de aprendizaje musical.
+Con este enfoque, PianoRise busca modernizar la enseñanza del piano en instituciones educativas como la Institución Educativa Privada Verdad y Vida – Veritas et Vita, ofreciendo una experiencia pedagógica más dinámica, efectiva y adaptada a las necesidades del alumnado.
 
-        La plataforma está diseñada para apoyar a personas que desean iniciarse en el mundo musical sin necesidad de recurrir a clases presenciales o conocimientos previos en teoría musical. El sistema propone un enfoque progresivo, práctico y accesible para facilitar la adquisición de habilidades básicas en piano mediante el uso de reconocimiento de audio en tiempo real y retroalimentación continua.
-
-        Los propósitos específicos del sistema son:
-
-        - Proporcionar una herramienta intuitiva y accesible para principiantes que deseen aprender piano sin necesidad de clases presenciales.
-        - Utilizar reconocimiento de audio para detectar las notas tocadas y compararlas con las notas esperadas.
-        - Implementar un sistema de avance gradual basado en la precisión de la ejecución del usuario, mediante un sistema de progreso fraccionado.
-        - Presentar ejercicios interactivos y canciones sencillas que motiven al usuario en su proceso de aprendizaje musical.
-
-        Este enfoque permitirá a los usuarios aprender a su propio ritmo, brindando una experiencia educativa moderna, efectiva y centrada en la práctica instrumental.
 
       2. ##### **Alcance**{#alcance}
 
-          El presente sistema tiene como alcance el desarrollo e implementación de la plataforma web **PianoRise**, orientada al aprendizaje autónomo del piano para estudiantes de nivel escolar. El sistema estará enfocado en ofrecer funcionalidades prácticas que permitan la interacción directa del estudiante con ejercicios musicales y retroalimentación inmediata, así como el seguimiento del progreso por parte de los docentes. A continuación se detallan las inclusiones y exclusiones del sistema.
+         El presente sistema tiene como alcance el desarrollo e implementación de la plataforma web PianoRise, orientada al aprendizaje autónomo del piano para estudiantes de nivel escolar. El sistema estará enfocado en ofrecer funcionalidades prácticas que permitan la interacción directa del estudiante con ejercicios musicales y retroalimentación inmediata, así como el seguimiento del progreso por parte de los docentes. A continuación se detallan las inclusiones y exclusiones del sistema.
+
 
             ##### Inclusiones
 
             **Desarrollo de una Plataforma Web:**  
             - Creación de una plataforma accesible desde navegadores modernos (Chrome, Firefox, Edge), con una interfaz gráfica intuitiva y moderna.    <br>
             **Funcionalidades Clave:**  
-            - **Gestión de usuarios:** Registro, inicio de sesión y edición de información del usuario.  
-            - **Reconocimiento de notas en tiempo real:** Captura y procesamiento del audio del usuario a través del micrófono, identificando las notas tocadas y comparándolas con las notas esperadas en cada ejercicio.  
-            - **Repertorio de canciones:** Inclusión de un repertorio inicial de canciones simples, categorizadas por niveles de dificultad.  
-            - **Retroalimentación visual y auditiva:** Resaltado visual de las notas correctas e incorrectas en pantalla y señales auditivas que indiquen aciertos o errores.  
-            - **Gestión del aula:** Creación de aulas virtuales para organizar estudiantes, con códigos de acceso únicos para su integración.  
-            - **Monitoreo de progreso para docentes:** Los docentes podrán visualizar el avance individual de sus estudiantes, las canciones completadas y los puntajes obtenidos.      <br>
+            - **Gestión de usuarios:**
+                - Permitir el registro seguro de usuarios (estudiantes y docentes) mediante la creación de credenciales de acceso.
+                - Implementar el inicio de sesión y cierre de sesión de forma segura.
+                - Permitir la edición de información personal por parte de los usuarios, y la gestión de cuentas docentes por parte del administrador.
+
+            - **Reconocimiento de notas en tiempo real:**
+                - Capturar y procesar el audio a través del micrófono del usuario.
+                - Detectar las notas musicales tocadas y compararlas con las notas esperadas en cada ejercicio o canción.
+                - Proporcionar retroalimentación sobre la precisión de la ejecución.
+ 
+            - **Repertorio de canciones:**
+                - Gestionar un repertorio general de canciones sencillas, administrado por el administrador del sistema.
+                - Permitir que los docentes seleccionen las canciones del repertorio general que serán asignadas a su aula.
+                - Permitir a los estudiantes seleccionar canciones asignadas a su aula para practicarlas.   
+            - **Retroalimentación visual y auditiva:**
+                - Mostrar en pantalla indicaciones visuales que resalten las notas tocadas correctamente e indiquen los errores cometidos.
+                - Emitir señales auditivas de confirmación para notas acertadas y alertas para notas incorrectas.   
+            - **Gestión del aula:**
+                - Permitir a los docentes crear aulas dentro del sistema para organizar a sus estudiantes.
+                - Asignar un repertorio específico de canciones a cada aula durante su creación o edición.
+                - Generar códigos únicos de acceso para que los estudiantes se unan a las aulas correspondientes.
+            - **Almacenamiento de progreso de los estudiantes:**
+                - Registrar únicamente las canciones que los estudiantes completen satisfactoriamente
+                - Almacenar la cantidad de errores cometidos en cada canción finalizada.  
+            - **Monitoreo de progreso para docentes:**
+                - Permitir a los docentes visualizar el avance de sus estudiantes, identificando canciones completadas y no completadas.
+                - Mostrar el puntaje y los errores obtenidos por cada estudiante en cada canción.
+            - **Generación de reportes de desempeño**
+                - Generar reportes que incluyan métricas y gráficos sobre el desempeño general del aula.
+                - Permitir la descarga o visualización de reportes para seguimiento académico. 
+           <br>
 
             **Soporte Tecnológico:**  
             - El sistema utilizará bibliotecas especializadas para el procesamiento de audio en tiempo real (como Librosa o similares) para la detección de notas musicales.
@@ -169,25 +191,15 @@ Integrantes:
 
 
           - **PianoRise:** Nombre de la plataforma, simboliza el progreso y crecimiento en el aprendizaje del piano.  
-          - **Reconocimiento de audio:** Tecnología que permite identificar las notas musicales que el usuario ejecuta mediante el micrófono del dispositivo.  
-  
-
-
-      4. ##### **Referencias**{#referencias}
-
-          - Lineamientos curriculares del área de Educación por el Arte – Música del Ministerio de Educación del Perú.  
-          - Universidad Privada de Tacna – Información institucional de la IEP Verdad y Vida.  
-          - Materiales de referencia sobre tecnologías de reconocimiento de audio en aplicaciones web (PitchDetection, Tone.js, Web Audio API).  
-          - Buenas prácticas de desarrollo de software educativo y accesible en plataformas escolares.
 
 
 
-      5. ##### **Visión General**{#visión-general}
-          **PianoRise** es una plataforma web desarrollada para apoyar el aprendizaje del piano en estudiantes de nivel escolar dentro del entorno educativo de la **Institución Educativa Verdad y Vida – Veritas et Vita**. El sistema busca brindar una experiencia práctica, interactiva y accesible, que complemente el trabajo del docente y motive a los estudiantes a mejorar sus habilidades musicales.
+      4. ##### **Visión General**{#visión-general}
+          PianoRise es una plataforma web diseñada para fortalecer el aprendizaje del piano en estudiantes de nivel escolar dentro del entorno educativo de la Institución Educativa Verdad y Vida – Veritas et Vita. El sistema ofrece una experiencia práctica, interactiva y accesible, complementando el trabajo del docente y motivando a los estudiantes a desarrollar sus habilidades musicales.
+La plataforma permite a los alumnos practicar canciones asignadas desde su navegador, con retroalimentación inmediata mediante el reconocimiento de notas musicales captadas a través del micrófono. Solo se registra el progreso cuando el estudiante completa satisfactoriamente una canción, almacenando el puntaje y los errores cometidos.
+PianoRise proporciona herramientas para que los docentes gestionen aulas virtuales, asignen repertorios personalizados seleccionados de un repositorio general, y supervisen el avance individual de sus estudiantes mediante métricas y reportes de desempeño. Los estudiantes se integran a las aulas mediante códigos únicos generados automáticamente.
+Al digitalizar el proceso de enseñanza musical, PianoRise elimina la necesidad de softwares costosos o equipos especializados, promoviendo una educación artística moderna, inclusiva y alineada con las capacidades tecnológicas del entorno escolar.
 
-          La plataforma permite a los alumnos practicar canciones guiadas desde el navegador, con retroalimentación inmediata gracias al reconocimiento de notas musicales captadas por el micrófono. Además, cuenta con herramientas para que el docente supervise el avance de sus estudiantes, gestione aulas virtuales y asigne repertorios personalizados.
-
-          PianoRise digitaliza el proceso de enseñanza musical de forma efectiva, eliminando la necesidad de softwares costosos o equipos especializados, y promoviendo una educación artística moderna y alineada con las capacidades tecnológicas del entorno escolar.
 
 ---
 
@@ -198,9 +210,6 @@ Integrantes:
           - **Demanda creciente de soluciones tecnológicas educativas en instituciones escolares.**  
           En los últimos años, el uso de plataformas digitales en el aula ha crecido exponencialmente, impulsado por la necesidad de herramientas que complementen el aprendizaje presencial con recursos interactivos. En el ámbito musical, esta tendencia se refleja en la búsqueda de soluciones que permitan la práctica autónoma, personalizada y accesible para estudiantes desde etapas tempranas de formación.
 
-          - **Falta de plataformas musicales con retroalimentación en tiempo real para el nivel escolar.**  
-          Actualmente, existen diversas herramientas de teoría musical o lectura de partituras, pero pocas ofrecen funciones prácticas como la detección de notas en tiempo real y el seguimiento del progreso individual, especialmente orientadas al contexto educativo escolar.
-
           - **Aprovechamiento de los recursos existentes en las instituciones educativas.**  
           PianoRise puede ser implementado sin necesidad de equipos especializados, aprovechando computadoras con acceso a internet y micrófono, facilitando así su integración en aulas que ya cuentan con infraestructura tecnológica básica.
 
@@ -210,25 +219,25 @@ Integrantes:
       2. ##### **Definición del problema**{#definición-del-problema}
 
 
-          En la actualidad, el proceso de aprendizaje del piano en contextos escolares enfrenta diversos desafíos que afectan tanto a los estudiantes como a los docentes. Estos desafíos incluyen la falta de herramientas tecnológicas que brinden retroalimentación inmediata, la dificultad para realizar seguimiento personalizado del avance de los alumnos, y la limitada disponibilidad de recursos prácticos que acompañen la enseñanza musical en entornos educativos con infraestructura básica. Además, el aprendizaje fuera del aula se ve afectado por la ausencia de plataformas accesibles que permitan a los estudiantes practicar de manera autónoma y motivadora.
+          Actualmente, en el entorno de enseñanza musical, los procesos de gestión y seguimiento de las clases de piano presentan importantes limitaciones debido a la falta de herramientas tecnológicas especializadas. El manejo de aulas, el seguimiento del progreso de los estudiantes y la organización del repertorio musical se realizan de manera manual o utilizando plataformas no adaptadas a las necesidades específicas de la formación instrumental. Esta situación genera ineficiencias, dificulta la evaluación objetiva del desempeño y limita el crecimiento académico de los estudiantes. Los principales problemas identificados son.
 
-          - **Falta de retroalimentación inmediata durante la práctica musical:**  
-            Los métodos tradicionales de enseñanza musical no permiten que el estudiante sepa, en tiempo real, si está tocando correctamente una nota o secuencia. Esto retrasa su progreso, incrementa la frustración y reduce su motivación para continuar aprendiendo por cuenta propia.
+          - **Procesos manuales e ineficientes:**  
+            La creación y gestión de clases, así como el seguimiento del progreso de los alumnos, se realiza de forma manual o con herramientas genéricas, lo que provoca demoras, errores y sobrecarga de trabajo para los docentes.
 
-          - **Dificultad para monitorear el progreso de cada estudiante:**  
-            Los docentes no cuentan con herramientas que les permitan observar de forma sistemática y precisa el desempeño individual de sus alumnos en la práctica del piano, especialmente fuera del horario de clases.
+          - **Falta de seguimiento estructurado del desempeño estudiantil:**  
+            Actualmente, no se dispone de un sistema que registre de manera organizada las canciones practicadas, los errores cometidos y los logros alcanzados por los estudiantes, dificultando así una evaluación continua y objetiva.
 
-          - **Limitados recursos interactivos en el aula:**  
-            El material de enseñanza musical en instituciones escolares suele estar centrado en la teoría o en partituras impresas, sin ofrecer componentes digitales que faciliten la práctica instrumental autónoma o que se adapten al ritmo de aprendizaje de cada estudiante.
+          - **Ausencia de un módulo especializado para repertorios musicales:**  
+            No existe un sistema que permita seleccionar y administrar repertorios adaptados al nivel de cada aula, limitando la personalización de la enseñanza y el desarrollo musical de los estudiantes.
 
-          - **Acceso restringido a plataformas educativas musicales de calidad:**  
-            La mayoría de las plataformas musicales digitales con funciones avanzadas de aprendizaje requieren licencias costosas o están diseñadas para un público más avanzado, lo que impide su implementación en escuelas de nivel básico.
+          - **Gestión desorganizada de información:**  
+            El registro de alumnos, aulas y progreso de aprendizaje se realiza de forma dispersa, aumentando el riesgo de pérdida de datos importantes y dificultando la obtención de reportes consolidados.
 
-          - **Ausencia de metodologías adaptadas a la educación escolar digital:**  
-            Las plataformas existentes suelen carecer de funcionalidades específicas para entornos escolares, como la gestión de aulas, la asignación personalizada de ejercicios por parte del docente, o el uso en computadoras sin instalación adicional.
+          - **Limitada visibilidad para los docentes sobre el avance de sus estudiantes:**  
+             Los docentes carecen de herramientas que les permitan monitorear de forma clara y detallada el desempeño de cada alumno, lo que dificulta identificar áreas de mejora y establecer estrategias de refuerzo.
 
-          - **Gestión manual del seguimiento académico musical:**  
-            En muchos casos, el seguimiento del aprendizaje del piano se realiza de forma verbal o escrita, sin registros automáticos ni métricas claras sobre el avance y desempeño del estudiante, lo que dificulta la evaluación continua del proceso.
+          - **Falta de mecanismos para generar reportes de desempeño:**  
+            No se dispone de un sistema automatizado que permita generar reportes gráficos o métricos sobre el progreso individual y grupal, lo que restringe la capacidad de análisis y retroalimentación educativa.
 
 ---
 
@@ -348,11 +357,37 @@ Integrantes:
 
 5. #### **Características del producto**{#características-del-producto}
 
-      - Interfaz intuitiva y fácil de usar, pensada para facilitar la experiencia del usuario, con una interfaz clara y organizada. Los botones y menús están diseñados para que los estudiantes puedan acceder fácilmente a las funcionalidades principales sin distracciones, optimizando el aprendizaje desde el primer uso.
-      - Sistema de reconocimiento de audio permite detectar las notas que el estudiante está tocando en su piano o teclado. La plataforma analiza el sonido en tiempo real y verifica si la nota es correcta, brindando retroalimentación inmediata para mejorar la precisión del usuario.
-      - Sistema de avance progresivo. Cada canción o ejercicio se divide en segmentos (1/8, 2/8, 3/8, etc.), y a medida que el usuario toca las notas correctamente, su progreso se actualiza visualmente, incentivando la práctica continua.
-      - Selección de canciones sencillas y acordes básicos para principiantes. Estas melodías están estructuradas de manera progresiva para que el estudiante desarrolle sus habilidades paso a paso.
-      - La plataforma permite seleccionar el micrófono del dispositivo o conectar un micrófono externo para mejorar la detección del sonido, asegurando una mayor precisión en la identificación de las notas.
+      # Características principales de PianoRise
+
+      El sistema PianoRise presenta las siguientes características principales, diseñadas para cumplir los objetivos pedagógicos y funcionales establecidos:
+      
+      **Acceso personalizado**:
+      - Permite a los usuarios (administradores, docentes y estudiantes) registrarse, iniciar sesión de manera segura y gestionar su información personal.
+      
+      **Interfaz intuitiva y amigable**:
+      - La plataforma contará con un diseño sencillo, adaptado a estudiantes de nivel escolar y docentes, permitiendo una navegación fluida y sin complicaciones.
+      
+      **Reconocimiento de notas musicales en tiempo real**:
+      - Utiliza el micrófono del dispositivo para capturar el audio del piano y procesarlo, identificando las notas tocadas y comparándolas con las notas correctas del ejercicio o canción.
+      
+      **Retroalimentación inmediata**:
+      - Al momento de tocar, el estudiante recibirá información visual y sonora sobre la precisión de sus interpretaciones, ayudándole a corregir errores.
+      
+      **Selección de canciones personalizadas**:
+      - Cada estudiante podrá practicar canciones seleccionadas previamente por su docente desde un repertorio configurado para su aula.
+      
+      **Registro de progreso**:
+      - La plataforma almacenará el historial de canciones completadas, errores cometidos y puntajes obtenidos, permitiendo el seguimiento individual del avance de cada estudiante.
+      
+      **Gestión de aulas y estudiantes**:
+      - Los docentes podrán crear aulas, asignar estudiantes mediante códigos únicos, y gestionar el contenido de aprendizaje de forma personalizada.
+      
+      **Administración del repertorio**:
+      - El administrador podrá agregar, editar o deshabilitar canciones disponibles para ser asignadas en las aulas.
+      
+      **Reportes de desempeño**:
+      - Se generarán reportes gráficos y métricos que reflejen el progreso de los estudiantes a nivel individual y de aula, facilitando la evaluación continua.
+
 
 ---
 
