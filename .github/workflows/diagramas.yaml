@@ -1,0 +1,50 @@
+name: Generate Diagrams
+
+on:
+  push:
+    branches:
+      - main  # O cualquier otra rama en la que desees activar la acción
+  pull_request:
+    branches:
+      - main  # O cualquier otra rama
+
+jobs:
+  generate_diagrams:
+    runs-on: ubuntu-latest  # Puedes usar ubuntu-latest para Bash o windows-latest para PowerShell
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    # Para Bash: Instalar pyan3, Graphviz y ejecutar el script Bash
+    - name: Setup Bash Environment
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y graphviz python3-pip
+        pip install pyan3
+
+    - name: Run Bash Script for Class Diagrams
+      run: |
+        chmod +x generate_all.sh
+        ./generate_all.sh
+
+    # Para PowerShell: Ejecutar PowerShell Script
+    - name: Setup PowerShell Environment
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.x'  # Usar una versión de Python compatible
+
+    - name: Run PowerShell Script for Function Dependencies
+      shell: pwsh
+      run: |
+        $files = Get-ChildItem -Recurse -Filter *.py -Path ./app | ForEach-Object { $_.FullName }
+        $dotContent = pyan3 $files --dot --no-defines --colored --grouped --annotated
+        $dotContent | Set-Content -Path "callgraph.dot" -Encoding ASCII
+        dot -Tsvg callgraph.dot -o callgraph.svg
+
+    # Opcional: Subir el archivo generado (SVG o DOT) a GitHub como artefacto
+    - name: Upload callgraph.svg as Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: callgraph-svg
+        path: callgraph.svg

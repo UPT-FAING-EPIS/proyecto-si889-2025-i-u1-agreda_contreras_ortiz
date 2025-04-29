@@ -3,3 +3,6 @@ flask-socketio
 numpy
 scipy
 librosa
+pylint
+pyan3==1.1.1
+graphviz
