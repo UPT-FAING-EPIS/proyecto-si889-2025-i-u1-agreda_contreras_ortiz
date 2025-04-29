@@ -9,11 +9,12 @@ resource "azurerm_app_service_plan" "asp" {
   resource_group_name = azurerm_resource_group.rg.name
 
   sku {
-    tier = "Free"
-    size = "F1"
+    tier = "PremiumV2"
+    size = "P1v2"
   }
 
-  # Es necesario marcarlo como "Linux" o "Windows" explícitamente a veces
+  kind = "Linux"
+  reserved = true
 }
 
 resource "azurerm_linux_web_app" "webapps" {
@@ -21,9 +22,14 @@ resource "azurerm_linux_web_app" "webapps" {
   name                = each.value.name
   location            = azurerm_resource_group.rg.location
   resource_group_name = azurerm_resource_group.rg.name
-  service_plan_id = azurerm_app_service_plan.asp.id
+  service_plan_id     = azurerm_app_service_plan.asp.id
 
   site_config {
-    always_on = false  # Siempre en false en capa gratuita porque "always_on" solo se permite en planes pagos
+    always_on = true
+    linux_fx_version = "NODE|18-lts"
+  }
+
+  app_settings = {
+    WEBSITES_ENABLE_APP_SERVICE_STORAGE = "false"
   }
 }
