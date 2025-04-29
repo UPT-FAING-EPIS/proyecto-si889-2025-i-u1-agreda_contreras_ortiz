@@ -31,7 +31,7 @@ jobs:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         run: |
           cd PianoRisePython
-          snyk test app static templates --json | snyk-to-html -o snyk-report.html
+          snyk test --all-projects --json | snyk-to-html -o snyk-report.html
 
       - name: Upload Snyk HTML Report as Artifact
         uses: actions/upload-artifact@v4
