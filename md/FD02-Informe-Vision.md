@@ -440,7 +440,7 @@ Al digitalizar el proceso de enseñanza musical, PianoRise elimina la necesidad 
 6. #### **Restricciones**{#restricciones}
 
       - Compatibilidad web: PianoRise funcionará exclusivamente como una aplicación web, dependiendo del rendimiento del navegador y la calidad del micrófono utilizado. No se desarrollará soporte nativo para dispositivos móviles o sistemas operativos específicos.
-      - Procesamiento de audio: La detección de notas se basará en el análisis de sonido en tiempo real, utilizando la señal captada por el micrófono del usuario. El sistema no incluirá corrección de ruido avanzada ni ajustes automáticos para instrumentos desafinados.
+      - Procesamiento de audio: La detección de notas se basará en el análisis de sonido, utilizando la señal captada por el micrófono del usuario. El sistema no incluirá corrección de ruido avanzada ni ajustes automáticos para instrumentos desafinados.
       - Alcance del contenido: En su versión inicial, PianoRise ofrecerá únicamente canciones y ejercicios básicos para principiantes. No se incluirán niveles avanzados ni repertorio extenso en esta fase.
       - Tiempo y funcionalidades: El desarrollo del software se limitará a un período determinado, priorizando funciones esenciales. No se implementarán características adicionales fuera del alcance inicial del proyecto.
       - Uso de bibliotecas externas: El procesamiento de audio y la detección de notas se realizará mediante las bibliotecas aubio, librosa y mido, sin modificaciones personalizadas en su funcionamiento.
