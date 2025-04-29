@@ -21,25 +21,17 @@ jobs:
         run: |
           npm install -g snyk snyk-to-html
 
-      - name: Run Snyk Code Test on app, static, templates
+      - name: Install project dependencies
+        run: |
+          cd PianoRisePython
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Run Snyk Test and Generate HTML Report
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         run: |
           cd PianoRisePython
-          mkdir -p snyk-results
-
-          snyk code test PianoRisePython/app --json > snyk-results/app.json || echo '{}' > snyk-results/app.json
-          snyk code test PianoRisePython/static --json > snyk-results/static.json || echo '{}' > snyk-results/static.json
-          snyk code test PianoRisePython/templates --json > snyk-results/templates.json || echo '{}' > snyk-results/templates.json
-
-
-          jq -s '.' snyk-results/*.json > snyk-output.json
-          snyk-to-html -i snyk-output.json -o snyk-report.html
-
-          # Debug: List files in the directory and confirm report generation
-          ls -l PianoRisePython
-          ls -l PianoRisePython/snyk-results
-          ls -l PianoRisePython/snyk-report.html
+          snyk test --all-projects --json --exclude=requirements.txt | snyk-to-html -o snyk-report.html
 
       - name: Upload Snyk HTML Report as Artifact
         uses: actions/upload-artifact@v4
