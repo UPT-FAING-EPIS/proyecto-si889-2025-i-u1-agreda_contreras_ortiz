@@ -245,27 +245,32 @@ Al digitalizar el proceso de enseñanza musical, PianoRise elimina la necesidad 
 
       1. ##### **Resumen de los interesados**{#resumen-de-los-interesados}
 
-          ##### Usuarios Finales:
-          - Personas interesadas en aprender a tocar piano, especialmente principiantes que buscan una alternativa digital para estudiar de forma autodidacta y práctica.  
-          - Evaluar la facilidad de uso, la precisión del reconocimiento de notas, la calidad de los ejercicios propuestos y la utilidad del sistema de progreso para el aprendizaje individual.  
+          ##### Estudiantes de Piano:
+          - Estudiantes interesados en aprender a tocar piano, especialmente principiantes que buscan una alternativa digital para estudiar de forma autodidacta y práctica.
+          - Evaluar la facilidad de uso, la precisión del reconocimiento de notas, la calidad de los ejercicios propuestos y la utilidad del sistema de progreso para el aprendizaje individual.
 
           ##### Docentes o Instructores de Música:
-          - Profesores que podrían recomendar la aplicación a sus estudiantes como herramienta de práctica complementaria.  
+          - Profesores que podrían recomendar la aplicación a sus estudiantes como herramienta de práctica complementaria.
           - Asegurar que la aplicación refuerce correctamente los conceptos básicos del piano y proporcione retroalimentación útil para el estudiante.
 
       2. ##### **Resumen de los usuarios**{#resumen-de-los-usuarios}
 
-          ##### Estudiantes Principiantes de Piano: 
-          - Usuarios principales de PianoRise. Pueden ser personas de cualquier edad con poco o ningún conocimiento previo sobre el piano. Utilizan la plataforma para practicar canciones, recibir retroalimentación y avanzar gradualmente a través de los niveles de dificultad.
+          ##### Administrador: 
+          - Tiene acceso completo al sistema. Puede gestionar el repertorio de canciones, modificar los parámetros de reconocimiento de notas, monitorear el progreso de los estudiantes y generar reportes de desempeño. Su rol es supervisar y optimizar la plataforma para mejorar la experiencia de aprendizaje.
 
+          ##### Docente: 
+          - Usuario con permisos intermedios. Puede crear aulas virtuales, registrar estudiantes en ellas, asignar canciones o ejercicios a sus grupos, y visualizar el rendimiento individual y colectivo de los alumnos. Su objetivo es acompañar pedagógicamente el proceso de aprendizaje, personalizando los contenidos según el avance de sus estudiantes.
+
+          ##### Estudiante: 
+          - Usuario principal de la plataforma. Puede acceder a las funcionalidades de aprendizaje, seleccionar canciones del repertorio, ejecutar ejercicios interactivos, recibir retroalimentación inmediata y visualizar su progreso. También puede utilizar la práctica libre y retomar su avance en cualquier momento.
 
       3. ##### **Entorno de usuario**{#entorno-de-usuario}
 
           ##### Plataforma Web Interactiva:
           - Los usuarios acceden a PianoRise a través de navegadores en computadoras, sin necesidad de instalación. La interfaz está diseñada para ser clara e intuitiva, permitiendo al estudiante concentrarse en su práctica sin distracciones.
 
-          ##### Reconocimiento de Audio en Tiempo Real:
-          - La aplicación detecta las notas que el usuario toca mediante el micrófono del dispositivo y las compara con las notas esperadas para dar retroalimentación inmediata.
+          ##### Reconocimiento de Audio:
+          - La aplicación detecta las notas que el usuario toca mediante el micrófono del dispositivo y las compara con las notas esperadas para dar retroalimentación.
 
           ##### Requisitos Técnicos:
           - Acceso a una computadora con micrófono funcional.
@@ -274,44 +279,52 @@ Al digitalizar el proceso de enseñanza musical, PianoRise elimina la necesidad 
 
       4. ##### **Perfiles de los interesados**{#perfiles-de-los-interesados}
 
-          ##### Usuarios Finales (Estudiantes de Piano)  
-          - Personas autodidactas interesadas en aprender a tocar el piano desde cero, ya sea por hobby, curiosidad o deseo de adquirir nuevas habilidades musicales.
+          ##### Institución Educativa Verdad y Vida – Veritas et Vita: 
+          - Entidad promotora del proyecto. Su interés principal es implementar una herramienta tecnológica que complemente la enseñanza musical y potencie el desarrollo artístico de los estudiantes. Busca mejorar la calidad educativa mediante la incorporación de plataformas digitales efectivas y accesibles.
 
           ##### Docentes de Música  
-          - Profesores de piano que podrían incorporar PianoRise como herramienta de práctica en sus clases, para que sus estudiantes practiquen entre sesiones.
+          - Profesionales responsables de la enseñanza del piano dentro del aula. Están interesados en contar con una plataforma que les permita asignar ejercicios, hacer seguimiento del rendimiento de los estudiantes y personalizar la experiencia de aprendizaje según las necesidades individuales de cada alumno.
 
-          ##### Inversores o Instituciones de Educación Musical  
-          - Interesados en apoyar herramientas tecnológicas que promuevan la enseñanza musical accesible.
+          ##### Equipo de desarrollo:
+          - Encargados del diseño, programación, prueba y mantenimiento de la plataforma PianoRise. Su interés radica en comprender claramente los requerimientos funcionales y no funcionales para asegurar el cumplimiento de los objetivos técnicos y pedagógicos del proyecto.
 
       5. ##### **Perfiles de los usuarios**{#perfiles-de-los-usuarios}
 
-          ##### Principiantes en Piano (Usuarios Finales)  
-          **Perfil:**  
-          - Usuarios de cualquier edad que desean aprender piano desde casa, sin necesidad de conocimientos previos.  
+          ##### Estudiantes: 
+          - Usuarios principales de la plataforma. Son alumnos de nivel escolar que utilizan PianoRise para aprender piano de forma interactiva y autónoma. Buscan una herramienta fácil de usar, motivadora y con retroalimentación inmediata. Sus actividades incluyen realizar ejercicios, tocar canciones guiadas y revisar su progreso.
 
-          **Características:**  
-          - Necesitan una interfaz accesible y fácil de entender.  
-          - Requieren retroalimentación inmediata para corregir errores.  
-          - Buscan motivación a través de progreso visual, gamificación y logros.  
+          ##### Docentes: 
+          - Usuarios con funciones de gestión educativa dentro del sistema. Pueden crear aulas, registrar estudiantes, asignar repertorios y revisar el avance de sus alumnos. Requieren funcionalidades que les permitan intervenir en el proceso de enseñanza y adaptar el contenido al nivel de cada grupo.
 
-          **Opciones Disponibles:**  
-          - Seguir ejercicios paso a paso.  
-          - Visualizar notas y recibir corrección en tiempo real.  
-          - Consultar su avance por fracciones.  
-          - Repetir ejercicios hasta dominarlos.  
-
+          ##### Administradores: 
+          - Usuarios con acceso completo al sistema. Su perfil incluye la configuración técnica general de la plataforma, la administración del contenido (como el repertorio de canciones) y el soporte a docentes y estudiantes. También pueden generar reportes y aplicar mejoras continuas al sistema.
 
       6. ##### **Necesidades de los interesados y usuarios**{#necesidades-de-los-interesados-y-usuarios}
 
-          ##### Estudiantes de Piano  
-          - **Retroalimentación inmediata:** Necesitan saber si están tocando las notas correctas en el momento.  
-          - **Interfaz amigable:** Que facilite el aprendizaje sin barreras técnicas.  
-          - **Progreso visual:** Poder ver cuánto han avanzado y qué les falta por completar.  
-          - **Motivación y práctica guiada:** Ejercicios interactivos que les permitan practicar de forma estructurada.  
+          ##### Institución Educativa Verdad y Vida – Veritas et Vita:
+          - Contar con una herramienta tecnológica que complemente la enseñanza del piano y se integre fácilmente en el entorno escolar.
+          - Asegurar que la plataforma sea accesible, funcional y útil para estudiantes y docentes, sin requerir equipos o licencias costosas.
+          - Promover el desarrollo de habilidades musicales como parte de la formación integral de los alumnos.
+          - Obtener reportes o evidencias del uso y avance de los estudiantes para evaluar el impacto pedagógico del sistema.
 
-          ##### Docentes de Música  
-          - **Recurso complementario confiable:** Buscan una herramienta que complemente sus clases presenciales o virtuales.  
-          - **Facilidad de recomendación:** La app debe ser lo suficientemente clara para que cualquier alumno pueda utilizarla por sí solo.  
+          ##### Docentes de música:
+          - Disponer de una plataforma que les permita organizar a los estudiantes por aulas virtuales.
+          - Asignar ejercicios o canciones adaptadas al nivel de cada grupo o alumno.
+          - Hacer seguimiento del progreso de los estudiantes de forma clara y rápida.
+          - Reducir el tiempo destinado a la corrección manual, confiando en la retroalimentación automatizada del sistema.
+          - Acceder a un repertorio variado y didáctico que respalde su plan de clases.
+
+          ##### Estudiantes (usuarios finales):
+          - Practicar canciones y ejercicios musicales con ayuda visual y auditiva.
+          - Recibir retroalimentación inmediata sobre sus errores y aciertos.
+          - Ver su progreso de forma clara para mantenerse motivados.
+          - Poder practicar desde el aula o el hogar sin necesidad de instalaciones complicadas ni equipos profesionales.
+
+          ##### Administradores del sistema:
+          - Supervisar el funcionamiento general del sistema.
+          - Gestionar el contenido, usuarios y configuraciones.
+          - Detectar fallos técnicos y brindar soporte a docentes y estudiantes.
+          - Velar por la integridad y actualización del sistema según el crecimiento del proyecto.
 
 ---
 
