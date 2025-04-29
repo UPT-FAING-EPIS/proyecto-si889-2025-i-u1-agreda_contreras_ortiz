@@ -450,29 +450,31 @@ Al digitalizar el proceso de enseñanza musical, PianoRise elimina la necesidad 
 7. #### **Rangos de calidad**{#rangos-de-calidad}
 
     - Precisión en la Detección de Notas:
-      - PianoRise debe reconocer las notas tocadas por el usuario con una precisión superior al 90%, minimizando errores de detección causados por ruido ambiental o variaciones en la afinación del instrumento.
-      - La latencia en la detección debe ser lo suficientemente baja para proporcionar retroalimentación en tiempo real sin retrasos perceptibles.
+      - PianoRise debe reconocer las notas tocadas por el usuario con una precisión superior al 85%, minimizando errores de detección causados por ruido ambiental moderado o variaciones menores en la ejecución.
+      - La latencia en la detección debe ser suficientemente baja para proporcionar retroalimentación inmediata, sin retrasos perceptibles que afecten la experiencia de práctica.
 
     - Interfaz Intuitiva y Fácil de Usar
-      - La plataforma debe ofrecer una navegación fluida con menús y botones organizados de manera lógica.
-      - Los usuarios deben poder visualizar claramente la secuencia de notas que deben tocar y recibir retroalimentación inmediata sobre su progreso.
+      - La plataforma debe ofrecer una navegación fluida, con menús y botones organizados de manera lógica y coherente.
+      - Los usuarios deben poder visualizar claramente la secuencia de notas que deben tocar y recibir retroalimentación inmediata sobre su ejecución.
 
     - Retroalimentación Visual y Auditiva
-      - La aplicación debe resaltar visualmente las notas correctas y mostrar alertas cuando el usuario cometa errores.
+      - La aplicación debe resaltar visualmente las notas correctas tocadas por el estudiante y emitir alertas claras cuando se produzcan errores, promoviendo la corrección instantánea.
 
     - Progresión y Evaluación del Usuario
-      - PianoRise debe mostrar el avance del usuario en fracciones de 1/8, 2/8, 3/8, etc., conforme se toquen correctamente las notas de la canción.
-      - La plataforma debe permitir la repetición de ejercicios para mejorar la precisión del usuario en cada sesión.
+      - Aunque no se usará un sistema de fracciones en esta implementación, la plataforma debe mostrar el estado de avance del usuario a través de indicadores claros de canciones completadas, errores cometidos y puntajes obtenidos.
+      - Debe permitir la repetición de ejercicios para mejorar la precisión en cada sesión de práctica.
 
     - Galería de Canciones y Ejercicios
-      - La aplicación debe contar con una selección inicial de canciones sencillas y ejercicios progresivos para el aprendizaje.
-      - Cada canción debe incluir información sobre su nivel de dificultad.
+      - La aplicación debe contar con una selección inicial de canciones y ejercicios progresivos, organizados por niveles de dificultad adecuados para estudiantes principiantes.
+      - Cada canción incluirá información básica sobre su nivel, para guiar al estudiante en su proceso de aprendizaje.
 
     - Compatibilidad y Accesibilidad
-      - La plataforma debe funcionar correctamente en navegadores modernos y con diferentes tipos de micrófonos.
+      - La plataforma debe ser totalmente funcional en navegadores web modernos como Google Chrome, Mozilla Firefox y Microsoft Edge.
+      - Debe ser compatible con diferentes tipos de micrófonos integrados o externos, garantizando una correcta captura de audio en entornos escolares.
 
     - Políticas Claras de Uso
-      - Se debe garantizar la privacidad y seguridad de la información, sin requerir datos personales sensibles para su uso.
+      - PianoRise debe garantizar la privacidad y seguridad de la información de sus usuarios, evitando la recolección de datos personales sensibles.
+      - El sistema debe incluir un acuerdo de términos y condiciones claros para todos los usuarios.
 
 ---
 
