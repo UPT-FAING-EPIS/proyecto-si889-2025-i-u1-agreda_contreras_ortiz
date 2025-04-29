@@ -480,24 +480,25 @@ Al digitalizar el proceso de enseñanza musical, PianoRise elimina la necesidad 
 
 8. #### **Precedencia y Prioridad**{#precedencia-y-prioridad}
 
-  En el desarrollo de PianoRise, se han identificado diversas funcionalidades y requisitos. Para asegurar una implementación eficiente, se establecen las siguientes prioridades:
-  
-  Funcionalidades Esenciales 
-  
-  Estas características son fundamentales para que la plataforma cumpla con su propósito principal:
+    Dentro del desarrollo de PianoRise, se establecen las siguientes prioridades para la implementación de las funcionalidades.
 
-  - Reconocimiento de notas en tiempo real: El sistema debe detectar con precisión las notas tocadas y brindar retroalimentación inmediata.
-  - Interfaz gráfica de visualización de notas: La plataforma debe mostrar en pantalla qué notas deben ejecutarse y si han sido tocadas correctamente.
-  - Sistema de progreso fraccionado: La implementación del avance en fracciones (1/8, 2/8, etc.) es clave para mantener la motivación del usuario.
-  - Compatibilidad con micrófonos estándar: La plataforma debe ser capaz de procesar audio de micrófonos integrados en computadoras o externos.
+    **Funcionalidades críticas:**
+    - Gestión de usuarios (registro, inicio de sesión, recuperación de contraseña).
+    - Reconocimiento de notas.
+    - Selección y práctica de canciones por los estudiantes.
+    - Registro del progreso de los estudiantes.
 
-  Funcionalidades Secundarias
-  
-  Estas características mejoran la experiencia del usuario, pero su ausencia no impediría el uso básico de la plataforma:
+    **Funcionalidades importantes:**
+    - Creación y gestión de aulas por parte de los docentes.
+    - Monitoreo del avance de los estudiantes en cada aula.
+    - Gestión del repertorio de canciones (agregar, editar y deshabilitar).
 
-  - Galería de canciones básicas y ejercicios progresivos: Se incluirá un repertorio inicial de canciones, priorizando aquellas que faciliten el aprendizaje.
-  - Retroalimentación visual y auditiva: Resaltado de notas correctas e incorrectas.
-  - Compatibilidad con diferentes navegadores: Optimización para Chrome, Firefox y Edge en su fase inicial.
+    **Funcionalidades complementarias:**
+    - Generación de reportes gráficos y métricos de desempeño de las aulas.
+    - Personalización de parámetros de reconocimiento de audio para diferentes tipos de ejercicios o niveles de dificultad.
+
+
+
 
 ---
 
