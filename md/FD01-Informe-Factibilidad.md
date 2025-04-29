@@ -408,3 +408,55 @@ Integrantes:
         - Valor agregado a la formación académica del estudiante, al contar con una plataforma exclusiva de vinculación laboral.
         - Fomento del vínculo universidad-empresa.
         - Mejora en la toma de decisiones, gracias a los reportes generados por el sistema.
+
+        5.1.2 Criterios de Inversión:
+
+        Egresos Anuales:
+        <center>
+
+        | Concepto          | Año 1 | Año 2 | Año 3 | Año 4 | Año 5 |
+        |-------------------|-------|-------|-------|-------|-------|
+        | Hosting Azure     | 960   | 960   | 960   | 960   | 960   |
+        | Hosting Elastika  | 100   | 100   | 100   | 100   | 100   |
+        | Soporte técnico   | 150   | 200   | 250   | 250   | 250   |
+        | Mantenimiento menor | 100 | 140   | 190   | 190   | 190   |
+        | **Total egresos anuales (S/.)** | **1,350** | **1,400** | **1,500** | **1,500** | **1,500** |
+        
+        Tabla 07. Tabla de los egresos anuales de la UPT posterior al desarrollo de la plataforma LinkJob.<br>
+        Fuente: Elaboración propia.
+
+        </center>
+        <br>
+        Cuadro FNC:
+        <center>
+
+        | Año | Ingresos (S/.) | Egresos (S/.) | FNC (S/.)  |
+        |-----|----------------|---------------|------------|
+        | 0   | 0              | 28,500        | -28,500    |
+        | 1   | 7,250          | 1,350         | 5,900      |
+        | 2   | 7,250          | 1,400         | 5,850      |
+        | 3   | 7,250          | 1,500         | 5,750      |
+        | 4   | 7,250          | 1,500         | 5,750      |
+        | 5   | 7,250          | 1,500         | 5,750      |
+
+        Tabla 08. Tabla del flujo neto de caja del desarrollo y ciclo de vida de la aplicación web LinkJob.<br>
+        Fuente: Elaboración propia.
+        <br>
+        <br>
+        </center>
+
+        5.1.2.1 Relación Beneficio/Costo (B/C)
+
+        - B/C = 0.87
+        - Como B/C > 1, el proyecto es viable económicamente, ya que los beneficios superan a los costos.
+
+        5.1.2.2 Valor Actual Neto (VAN)
+
+        - VAN = S/ 4,360.65
+        - Un VAN positivo indica que el proyecto genera valor adicional después de recuperar la inversión inicial. 
+
+        5.1.2.3 Tasa Interna de Retorno (TIR)
+
+        - TIR = 4.37%
+        - Como TIR > tasa de interés (1.5%), el proyecto es rentable y debe aceptarse, ya que supera el costo de oportunidad.
+
