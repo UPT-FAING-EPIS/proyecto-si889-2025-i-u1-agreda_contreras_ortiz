@@ -40,7 +40,7 @@ jobs:
             -Dsonar.login=$SONAR_TOKEN
 
       - name: Wait for SonarCloud Quality Gate
-        uses: SonarSource/sonarcloud-quality-gate-action@v1.1.0
+        uses: SonarSource/sonarcloud-quality-gate-action@master
         timeout-minutes: 5
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
