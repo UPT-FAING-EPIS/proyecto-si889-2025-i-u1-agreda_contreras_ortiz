@@ -256,37 +256,35 @@ Integrantes:
    
         2. **Costos operativos durante el desarrollo**
 
-        **![][image2]**
-
         <center>
-
+  
+        ![image](https://github.com/user-attachments/assets/f0839f17-aaab-41f6-819e-4c74aeae4db0)
+       
         **Imagen 01\.** Imagen de los costos operativos realizada con Infracost para la plataforma PianoRise .  
         ***Fuente:** Elaboración propia.*
 
         </center>
 
-        **![][image3]**
-
         <center>
-
+            
+        ![image](https://github.com/user-attachments/assets/b6e92ba7-22cc-40ec-a747-ab6f93ac6fc0)
         **Imagen 02\.** Imagen de los costos operativos del hosting de la base de datos NeonTech  para la plataforma PianoRise .  
         ***Fuente:** Elaboración propia*
         </center>
 
         3. **Costos del ambiente**
 
-        **![][image4]**
-
         <center>
-
+            
+        ![image](https://github.com/user-attachments/assets/8ba688b7-9baa-446c-8203-47707b2d1eef)
         **Imagen 03\.** Imagen de los costos del ambiente realizada con Infracost para la plataforma PianoRise .  
         ***Fuente:** Elaboración propia.*
 
         </center>
-
-        **![][image5]**
-
+        
         <center>
+  
+        ![image](https://github.com/user-attachments/assets/6f75d430-810a-4430-8005-e7c7306525e2)
 
         **Imagen 04\.** Imagen de los costos del ambiente del hosting de la base de datos NeonTech  para la plataforma PianoRise .  
         ***Fuente:** Elaboración propia*
@@ -335,7 +333,7 @@ Integrantes:
 
         </center>
 
-    3. ##### **Factibilidad Operativa** {#factibilidad-operativa}
+    4. ##### **Factibilidad Operativa** {#factibilidad-operativa}
 
         La factibilidad operativa analiza si el sistema propuesto puede ser implementado, mantenido y utilizado de forma efectiva por la organización y los usuarios finales. En el caso de “PianoRise”, el sistema brindará beneficios significativos en el proceso de enseñanza y evaluación de habilidades musicales.
 
@@ -355,7 +353,7 @@ Integrantes:
         * Se considera un uso liviano a moderado del sistema (baja concurrencia simultánea), por lo que no se requieren recursos tecnológicos de alta demanda.  
         * La aplicación cuenta con paneles de control y módulos de práctica amigables, que no requieren entrenamiento técnico especializado para su operación.
 
-    4. ##### **Factibilidad Legal** {#factibilidad-legal}
+    5. ##### **Factibilidad Legal** {#factibilidad-legal}
 
         El sistema “PianoRise” cumple con las normativas legales y reglamentos nacionales relacionados con el uso de software educativo y protección de datos personales. No se detectan conflictos legales para su implementación.
 
@@ -366,7 +364,7 @@ Integrantes:
         * Uso de software adecuado: El sistema se desarrollará en ASP.NET (.NET Framework) y Python (para el reconocimiento de notas), respetando licencias de uso de software privativo y de código abierto donde corresponda.  
         * Contratos con terceros: Se respetarán los términos de servicio de servicios como Azure (alojamiento de Servicio de Reconocimiento de Notas y Servicio de Cursos de Música), NeonTech (alojamiento de la base de datos PostgreSQL).
 
-    5. ##### **Factibilidad Social** {#factibilidad-social}
+    6. ##### **Factibilidad Social** {#factibilidad-social}
 
         El proyecto “PianoRise” tiene un impacto social positivo al fortalecer la formación musical y promover la innovación educativa mediante el uso de nuevas tecnologías.
 
@@ -376,7 +374,7 @@ Integrantes:
         * Aceptación cultural: No existen barreras culturales o éticas, ya que el sistema mejora el acceso a métodos de enseñanza innovadores en el ámbito musical.  
         * Inclusión digital: Permite que alumnos de distintos niveles accedan a prácticas musicales asistidas digitalmente, reduciendo brechas tecnológicas y educativas.
 
-    6. ##### **Factibilidad Ambiental** {#factibilidad-ambiental}
+    7. ##### **Factibilidad Ambiental** {#factibilidad-ambiental}
 
         El sistema “PianoRise” es una solución completamente digital, por lo que su impacto ambiental es mínimo
 
