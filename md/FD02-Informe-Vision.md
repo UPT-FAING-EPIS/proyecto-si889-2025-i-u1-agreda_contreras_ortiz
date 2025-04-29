@@ -504,13 +504,10 @@ Al digitalizar el proceso de enseñanza musical, PianoRise elimina la necesidad 
 
 9. #### **Otros requerimientos del producto**{#otros-requerimientos-del-producto}
 
-    1. ##### **Estándares legales**{#estándares-legales}: Cumplimiento con regulaciones de privacidad de datos personales y respeto a las normativas de propiedad intelectual.
-
-    2. ##### **Estándares de comunicación**{#estándares-de-comunicación}: Garantizar la disponibilidad y fiabilidad del servicio, asegurando un tiempo de actividad superior al 98%.
-
-    3. ##### **Estándares de cumplimiento de la plataforma**{#estándares-de-cumplimiento-de-la-plataforma}: Implementación de medidas de seguridad para proteger la información de los usuarios mediante encriptación de datos y autenticación segura.
-
-    4. ##### **Estándares de calidad y seguridad**{#estándares-de-calidad-y-seguridad}: Preparar la plataforma para soportar un crecimiento en el número de usuarios, datos y canciones, manteniendo un rendimiento óptimo.
+    - **Estándares legales:** Cumplimiento con regulaciones de privacidad de datos personales y respeto a las normativas de propiedad intelectual.
+    - **Estándares de cumplimiento de la plataforma:** Garantizar la disponibilidad y fiabilidad del servicio, asegurando un tiempo de actividad superior al 98%.
+    - **Estándares de calidad y seguridad:** Implementación de medidas de seguridad para proteger la información de los usuarios mediante encriptación de datos y autenticación segura.
+    - **Estándares de escalabilidad:** Preparar la plataforma para soportar un crecimiento en el número de usuarios, datos y canciones, manteniendo un rendimiento óptimo.
 
   ---
 
