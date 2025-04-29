@@ -88,8 +88,9 @@ socket.on("nota_detectada", data => {
 
     const { nota, feedback, nota_esperada } = data;
 
-    document.getElementById("nota_actual").innerText = nota ? nota : "🎹 Esperando...";
-    document.getElementById("nota_esperada").innerText = nota_esperada ? nota_esperada : "🎯";
+    document.getElementById("nota_actual").innerText = nota || "🎹 Esperando...";
+    document.getElementById("nota_esperada").innerText = nota_esperada || "🎯";
+
 
     const progressBar = document.getElementById("progress_bar");
     const progressText = document.getElementById("progress_text");
