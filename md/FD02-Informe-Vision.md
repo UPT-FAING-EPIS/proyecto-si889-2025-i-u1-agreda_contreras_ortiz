@@ -365,6 +365,20 @@ Al digitalizar el proceso de enseñanza musical, PianoRise elimina la necesidad 
       - La correcta ejecución del reconocimiento de audio y los componentes gráficos interactivos depende del soporte de los navegadores utilizados. 
 
     4. ##### **Costos y precios**{#costos-y-precios}
+          ### Costos totales del desarrollo del sistema
+
+        | Categoría de Costo        | Costo Total (S/.) |
+        |---------------------------|-------------------|
+        | Costos Generales          | 0                 |
+        | Costos Operativos         | 0                 |
+        | Costos del Ambiente (5 años) | 20,400          |
+        | Costos de Personal        | 13,560            |
+        | **Total General del Proyecto** | **S/ 33,960**   |
+
+        **Tabla 01.** Tabla de los costos totales para el desarrollo de la plataforma PianoRise.  
+        *Fuente: Elaboración propia.*
+
+
 
     5. ##### **Licenciamiento e instalación**{#licenciamiento-e-instalación}
 
