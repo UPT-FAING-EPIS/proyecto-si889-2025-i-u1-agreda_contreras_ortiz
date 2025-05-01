@@ -364,6 +364,15 @@ Este documento establece los objetivos funcionales y técnicos del sistema, así
    2) ##### **Cuadro de Requerimientos No Funcionales** {#cuadro-de-requerimientos-no-funcionales}
 
 
+   | Código   | Requerimiento                   | Descripción |
+   |----------|----------------------------------|-------------|
+   | RNF-01   | Garantizar disponibilidad del sistema | El sistema debe garantizar una disponibilidad mínima del 97%, asegurando su correcto funcionamiento para el aprendizaje interactivo del piano. Esta disponibilidad considera mantenimientos programados, actualizaciones y posibles interrupciones imprevistas. |
+   | RNF-02   | Seguridad en la plataforma         | PianoRise debe proteger la información de los usuarios mediante mecanismos de autenticación y control de acceso. Se deben realizar pruebas de seguridad, incluyendo análisis de vulnerabilidades y pruebas de penetración. |
+   | RNF-03   | Escalabilidad del sistema          | El sistema debe ser capaz de manejar un aumento en el número de usuarios sin afectar el rendimiento. Se prioriza una arquitectura optimizada para procesamiento de audio y reconocimiento de notas musicales sin latencias significativas. |
+   | RNF-04   | Usabilidad de la plataforma        | El sistema debe ofrecer una interfaz intuitiva y accesible, especialmente diseñada para principiantes en el piano. |
+
+
+
    3) ##### **Cuadro de Requerimientos Funcionales Final**
 
    | Código | Requerimiento | Descripción | Prioridad |
