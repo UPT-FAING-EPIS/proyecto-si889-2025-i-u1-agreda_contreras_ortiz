@@ -372,3 +372,16 @@ Muestra la estructura de directorios del proyecto "PianoRise". Dentro de la carp
       <br>
 **Fuente:** Elaboración propia.
 </center>
+
+
+## 2.3. Vista Física
+### Diagrama de clases:
+El diagrama muestra la interacción entre alumnos y docentes, cada uno con usuario, a su vez se ve la interacción entre aulas, canciones y el historial.
+
+![width=500](../media/dg_clase.png)
+
+<center>
+**Diagrama 11:**   Diagrama de clases de PianoRise.
+      <br>
+**Fuente:** Elaboración propia.
+</center>
