@@ -396,3 +396,11 @@ El diagrama muestra la interacción entre alumnos y docentes, cada uno con usuar
 - **Monitoreo y Alertas**: Se utilizarán herramientas de monitoreo en tiempo real para detectar interrupciones, errores en el sistema o problemas de conectividad, permitiendo una respuesta oportuna.
 
 - **Escalabilidad Vertical y Horizontal**: La arquitectura permitirá escalar verticalmente (aumentando los recursos de los servidores existentes) y horizontalmente (añadiendo más servidores) a medida que crezca el número de usuarios o aulas activas.
+
+### 3.2. Seguridad
+
+- **Autenticación y Autorización**: PianoRise contará con un sistema robusto de autenticación basado en usuario y contraseña, diferenciando los accesos entre docentes y alumnos para preservar la integridad del contenido y los datos.
+
+- **Encriptación de Datos**: Todos los datos sensibles, incluyendo credenciales y registros de desempeño, estarán encriptados tanto en tránsito como en reposo para proteger la privacidad del usuario.
+
+- **Cumplimiento Normativo**: El sistema buscará alinearse con las normativas educativas y de protección de datos vigentes en el entorno de uso, especialmente en contextos escolares.
