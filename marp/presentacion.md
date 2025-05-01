@@ -41,11 +41,11 @@ Patrones de Software
 
 ## 🧾 Descripción del Sistema
 
-PianoRise es una plataforma web interactiva diseñada para facilitar el aprendizaje autónomo del piano a través de reconocimiento de notas musicales, creación de aulas virtuales y monitoreo personalizado por parte de los docentes.
+PianoRise es una plataforma web interactiva diseñada para facilitar el aprendizaje autónomo del piano a través de reconocimiento de notas musicales, creación de aulas virtuales y monitoreo por parte de los docentes.
 
-- Reconocimiento de notas en tiempo real  
-- Gestión de alumnos, docentes y repertorios  
-- Progreso trazable por historial y reportes PDF
+- Reconocimiento de notas
+- Gestión de alumnos, docentes y repertorios
+- Progreso trazable por historial y reportes
 
 ---
 
