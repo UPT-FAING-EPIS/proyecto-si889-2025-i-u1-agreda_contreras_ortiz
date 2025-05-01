@@ -258,31 +258,72 @@ Este documento establece los objetivos funcionales y técnicos del sistema, así
 
       2. **Viabilidad Económica:**
 
-         - Desarrollo e Implementación:
+         - Desarrollo e Implementación: 
 
-         - Desarrollo del software:
 
-         - Infraestructura:
+            - Desarrollo del software:
+                           PianoRise se desarrollará utilizando ASP.NET Framework en MVC para el backend y frontend. Este enfoque de tecnología proporciona una plataforma robusta, escalable y de código abierto, lo que minimiza los costos de licencias. Python se utilizará únicamente para el módulo de reconocimiento de notas musicales, el cual se desplegará en Azure App Service.
 
-         - Base de datos y almacenamiento:
+
+            - Infraestructura:
+               El sistema se desplegará en los servicios de Azure. Tanto el servicio de Cursos de Musica y el Servicio de Reconocimiento de Notas Azure App Service. Se utilizará una base de datos PostgreSQL proporcionada por NeonTech, que tiene costos asociados, así como los costos derivados de los servicios de Azure.
+
+
+            - Base de datos y almacenamiento:
+            Se usará PostgreSQL proporcionado por NeonTech para la gestión de la base de datos, aprovechando su confiabilidad y características avanzadas. Los archivos de audio y recursos multimedia se almacenarán en servidores web o en soluciones de almacenamiento en la nube de Azure, optimizando costos y escalabilidad.
+
 
 
          - Mantenimiento y Soporte:
 
-         - Actualización del software:
+            - Actualización del software:
+            El mantenimiento y actualización del software se llevarán a cabo periódicamente para implementar nuevas funcionalidades, garantizar la seguridad y mejorar la compatibilidad con navegadores modernos. Un programador con experiencia en ASP.NET y bases de datos será necesario para realizar estas tareas de mantenimiento.
 
-         - Capacitación del personal:
+
+            - Capacitación del personal:
+            Se proporcionará capacitación inicial a los docentes y administradores para gestionar las aulas, monitorear el progreso de los estudiantes y generar reportes. Gracias a su interfaz intuitiva, el tiempo de aprendizaje del sistema se reduce significativamente.
+
 
          - Beneficios Económicos:
+            - Reducción de costos en materiales didácticos:
+               La digitalización de partituras y la automatización del seguimiento del progreso estudiantil eliminará la necesidad de materiales físicos, reduciendo costos operativos.
+
+            - Optimización del tiempo docente:
+               El monitoreo automático del progreso estudiantil permitirá a los docentes centrarse en aspectos más cualitativos del aprendizaje, optimizando su tiempo y recursos.
+            
+            - Oferta de talleres pagados:
+               La plataforma permitirá a los docentes monetizar talleres de refuerzo musical, generando ingresos adicionales.
+            
+            - Licencias institucionales:
+               Las instituciones educativas podrán adquirir licencias para sus estudiantes, generando ingresos recurrentes para el sistema.
+            
+            - Mejora del rendimiento estudiantil:
+               El sistema de práctica personalizada incrementará la competencia musical de los estudiantes, lo que, a su vez, mejorará el prestigio de las instituciones educativas.
 
       3.  **Viabilidad Operativa:**
+            La factibilidad operativa analiza si el sistema propuesto puede ser implementado, mantenido y utilizado de forma efectiva por la organización y los usuarios finales. En el caso de “PianoRise”, el sistema brindará beneficios significativos en el proceso de enseñanza y evaluación de habilidades musicales.
 
-            - Capacidad del Cliente para Manejar el sistema:
+            - Beneficios del Sistema:
+               - Automatización del proceso de creación y gestión de aulas virtuales.
+               - Mejora en la eficiencia del seguimiento del progreso de los alumnos.
+               - Disminución del tiempo requerido para evaluar el desempeño en ejercicios musicales.
+               - Fortalecimiento de la relación entre docentes y alumnos a través de retroalimentación digital inmediata.
+               - Facilidad de uso para docentes y alumnos mediante interfaces intuitivas.
+               - Posibilidad de expansión hacia nuevos módulos como repertorios personalizados o torneos de práctica musical.
 
-            - Capacidad del Cliente para Mantener el Sistema:
-
+            - Capacidad Operativa:
+               - El sistema es autoadministrado por el personal docente de la Escuela de Música, con soporte técnico mínimo requerido.
+               - Los usuarios (docentes y alumnos) reciben interfaces diferenciadas según su rol y necesidades específicas.
+               - Se considera un uso liviano a moderado del sistema (baja concurrencia simultánea), por lo que no se requieren recursos tecnológicos de alta demanda.
+               - La aplicación cuenta con paneles de control y módulos de práctica amigables, que no requieren entrenamiento técnico especializado para su operación.
 
    6. ##### **Información obtenida del Levantamiento de Información:**{#información-obtenida-del-levantamiento-de-información}
+
+      Se analizaron diversas herramientas actualmente utilizadas por docentes y estudiantes en el proceso de aprendizaje del piano. Este análisis permitió comprender las fortalezas y limitaciones de dichas herramientas frente a las necesidades específicas del entorno educativo donde se implementará el sistema.
+      Entre las herramientas se encuentran:
+      - Aplicaciones móviles como Simply Piano: Esta plataforma ofrece lecciones guiadas, reconocimiento de notas y ejercicios interactivos. Sin embargo, su enfoque es general y no permite una gestión personalizada por parte del docente ni seguimiento detallado del progreso en un entorno de aula.
+      - Métodos tradicionales con partituras impresas y evaluaciones manuales: Aunque son ampliamente utilizados, estos métodos requieren de la presencia constante del docente para brindar retroalimentación, y no permiten un registro automático ni histórico del progreso del estudiante.
+      - Videos educativos en plataformas como YouTube: Muchos estudiantes recurren a tutoriales en línea para complementar su práctica. No obstante, este enfoque es completamente autodidacta, no estructurado y carece de evaluación o seguimiento personalizado.
 
 
 ---
@@ -291,8 +332,17 @@ Este documento establece los objetivos funcionales y técnicos del sistema, así
 
    1) ##### **Diagrama del Proceso Actual \- Diagrama de actividades** {#diagrama-del-proceso-actual---diagrama-de-actividades}
 
+      "El sistema actual no cuenta con un flujo definido. PianoRise viene a estructurar este proceso."
 
    2) #####  **Diagrama del Proceso Propuesto \- Diagrama de actividades Inicial** {#diagrama-del-proceso-propuesto---diagrama-de-actividades-inicial}
+
+   <center>
+
+      ![width=500](../media/DiagramaProcesoPropuesto.png)  
+
+
+      **Diagrama 01:** El diagrama representa el flujo de PianoRise.
+   </center>
 ---
 
 4. #### Especificación de Requerimientos de Software
