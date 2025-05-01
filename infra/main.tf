@@ -3,38 +3,52 @@ resource "azurerm_resource_group" "rg" {
   location = var.location
 }
 
-resource "azurerm_app_service_plan" "asp" {
-  name                = var.app_service_plan_name
+resource "azurerm_service_plan" "windows_asp" {
+  name                = "windows-service-plan"
   location            = azurerm_resource_group.rg.location
   resource_group_name = azurerm_resource_group.rg.name
+  os_type             = "Windows"
+  sku_name            = "F1"
+}
 
-  sku {
-    tier = "Free"
-    size = "F1"
+resource "azurerm_windows_web_app" "dotnet48_app" {
+  name                = "piano-net48-app"
+  location            = azurerm_resource_group.rg.location
+  resource_group_name = azurerm_resource_group.rg.name
+  service_plan_id     = azurerm_service_plan.windows_asp.id
+
+  site_config {
+    always_on         = false
+    use_32_bit_worker = true
+
+    application_stack {
+      current_stack  = "dotnet"
+      dotnet_version = "v4.0"
+    }
   }
 }
 
-resource "azurerm_linux_web_app" "example" {
-  name                = "example-webapp"
+
+
+resource "azurerm_service_plan" "linux_asp" {
+  name                = "linux-service-plan"
   location            = azurerm_resource_group.rg.location
   resource_group_name = azurerm_resource_group.rg.name
-  service_plan_id     = azurerm_service_plan.asp.id
+  os_type             = "Linux"
+  sku_name            = "F1"
+}
+
+resource "azurerm_linux_web_app" "docker_app" {
+  name                = "piano-docker-app"
+  location            = azurerm_resource_group.rg.location
+  resource_group_name = azurerm_resource_group.rg.name
+  service_plan_id     = azurerm_service_plan.linux_asp.id
 
   site_config {
     always_on = false
 
     application_stack {
-      docker_image_name   = "ximenaortiz/backend-piano-rise"
-      docker_registry_url = "https://index.docker.io"
-      docker_image_tag    = "latest"
+      docker_image_name = "ximenaortiz/backend-piano-rise:latest"
     }
   }
-
-  app_settings = {
-    WEBSITES_ENABLE_APP_SERVICE_STORAGE = "false"
-    DOCKER_REGISTRY_SERVER_URL          = "https://index.docker.io"
-    DOCKER_REGISTRY_SERVER_USERNAME     = "ximenaortiz"
-    DOCKER_REGISTRY_SERVER_PASSWORD     = "dckr_pat_GmDdreBeTkZk2NDA1OgEtnzWETM"
-  }
 }
-
