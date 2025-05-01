@@ -385,16 +385,98 @@ Este documento establece los objetivos funcionales y técnicos del sistema, así
 
    1. ##### **Perfiles de Usuario** {#perfiles-de-usuario}
 
+   - <strong>Estudiantes:</strong> Usuarios principales de la plataforma. Son alumnos de nivel escolar que utilizan PianoRise para aprender piano de forma interactiva y autónoma. Buscan una herramienta fácil de usar, motivadora y con retroalimentación inmediata. Sus actividades incluyen realizar ejercicios, tocar canciones guiadas y revisar su progreso.
+   - <strong>Docentes:</strong> Usuarios con funciones de gestión educativa dentro del sistema. Pueden crear aulas, registrar estudiantes, asignar repertorios y revisar el avance de sus alumnos. Requieren funcionalidades que les permitan intervenir en el proceso de enseñanza y adaptar el contenido al nivel de cada grupo.
+   - <strong>Administradores:</strong> Usuarios con acceso completo al sistema. Su perfil incluye la configuración técnica general de la plataforma, la administración del contenido (como el repertorio de canciones) y el soporte a docentes y estudiantes. También pueden generar reportes y aplicar mejoras continuas al sistema.
 
    2. ##### **Modelo Conceptual** {#modelo-conceptual}
 
       1) ##### Diagrama de Paquetes {#diagrama-de-paquetes}
 
+      El diagrama presenta la estructura del sistema PianoRise, organizando sus funcionalidades clave en paquetes como Autenticación, Gestion Docente, Gestion Aula, Interacción Estudiante, Gestion de Canciones, Seguimiento y Reportes. Cada paquete contiene casos de uso específicos que reflejan las acciones disponibles para los usuarios.
+
+      <center>
+
+      ![width=500](../media/casos-de-uso.png)  
+
+
+      **Diagrama 02:** Diagrama de paquetes de PianoRise.<br>
+      **Fuente:** Elaboración propia.
+      </center>
 
       2) ##### Diagrama de Casos de Uso {#diagrama-de-casos-de-uso}
 
+      Este diagrama de casos de uso representa las funcionalidades del sistema PianoRise. En él se identifican tres actores principales: Estudiante, Docente y Administrador, cada uno con permisos y acciones específicas. Los estudiantes pueden iniciar sesión, gestionar su autenticación, acceder a su aula, seleccionar canciones del repertorio y practicar con evaluación. Los docentes tienen acceso a funcionalidades adicionales como la gestión del repertorio musical, asignación y remoción de canciones en el aula, así como el monitoreo del progreso y la generación de reportes de desempeño. Los administradores, por su parte, gestionan las credenciales de los docentes, incluyendo su creación, edición y deshabilitación.
+
+      <center>
+
+      ![width=500](../media/paquetes.png)  
+
+      **Diagrama 03:** Diagrama de Casos de Uso.<br>
+      **Fuente:** Elaboración propia.
+      </center>
+
       3) ##### **Escenarios de Caso de Uso (Narrativa)** {#escenarios-de-caso-de-uso-(narrativa)}
 
+      **Narrativa de CU - 01:** “Gestionar Autentiación y Credenciales de Usuario”
+
+      <center>
+
+      ![width=500](../media/narrativa-1.png)  
+
+      </center>
+
+      **Narrativa de CU - 02:** “Gestionar Aula”
+
+      <center>
+
+      ![width=500](../media/narrativa-2-1.png)
+      <br>
+      ![width=500](../media/narrativa-2-2.png) 
+
+      </center>
+
+      **Narrativa de CU - 03:** “Seleccionar una canción del repertorio”
+
+      <center>
+
+      ![width=500](../media/narrativa-3.png)  
+
+      </center>
+
+      **Narrativa de CU - 04:** “Gestionar repertorio de canciones”
+
+      <center>
+
+      ![width=500](../media/narrativa-4.png)
+
+      </center>
+
+      **Narrativa de CU - 05:** “Monitorear progreso de estudiantes”
+
+      <center>
+
+      ![width=500](../media/narrativa-5.png)
+
+      </center>
+
+      **Narrativa de CU - 06:** “Generar reportes de desempeño”
+
+      <center>
+
+      ![width=500](../media/narrativa-6.png)
+
+      </center>
+
+      **Narrativa de CU - 07:** “Gestionar Docente”
+
+      <center>
+
+      ![width=500](../media/narrativa-7.png)
+      <br>
+      ![width=500](../media/narrativa-7-2.png)
+
+      </center>
 
    3. ##### **Modelo Lógico** {#modelo-lógico}
 
