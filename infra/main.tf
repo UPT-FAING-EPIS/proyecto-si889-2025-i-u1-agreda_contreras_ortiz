@@ -14,24 +14,27 @@ resource "azurerm_app_service_plan" "asp" {
   }
 }
 
-resource "azurerm_linux_web_app" "webapps" {
-  for_each            = { for app in var.webapps : app.name => app }
-  name                = each.value.name
+resource "azurerm_linux_web_app" "example" {
+  name                = "example-webapp"
   location            = azurerm_resource_group.rg.location
   resource_group_name = azurerm_resource_group.rg.name
-  service_plan_id     = azurerm_app_service_plan.asp.id
+  service_plan_id     = azurerm_service_plan.asp.id
 
   site_config {
     always_on = false
+
+    application_stack {
+      docker_image_name   = "ximenaortiz/backend-piano-rise"
+      docker_registry_url = "https://index.docker.io"
+      docker_image_tag    = "latest"
+    }
   }
 
-  app_service_linux_fx_version = each.value.use_docker ? "DOCKER|${each.value.image_name}:${each.value.image_tag}" : null
-
-  app_settings = each.value.use_docker ? {
+  app_settings = {
     WEBSITES_ENABLE_APP_SERVICE_STORAGE = "false"
-    DOCKER_REGISTRY_SERVER_URL          = each.value.registry_url
-    DOCKER_REGISTRY_SERVER_USERNAME     = each.value.registry_username
-    DOCKER_REGISTRY_SERVER_PASSWORD     = each.value.registry_password
-  } : {}
+    DOCKER_REGISTRY_SERVER_URL          = "https://index.docker.io"
+    DOCKER_REGISTRY_SERVER_USERNAME     = "ximenaortiz"
+    DOCKER_REGISTRY_SERVER_PASSWORD     = "dckr_pat_GmDdreBeTkZk2NDA1OgEtnzWETM"
+  }
 }
 
