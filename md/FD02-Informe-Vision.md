@@ -181,7 +181,7 @@ Con este enfoque, PianoRise busca modernizar la enseñanza del piano en instituc
 
             ##### Exclusiones
 
-            - **Compatibilidad móvil:** El sistema será exclusivo para uso en plataformas de escritorio y no incluirá versiones nativas ni aplicaciones para dispositivos móviles.  
+            - **Compatibilidad móvil:** El sistema será exclusivo para uso en plataformas web y no incluirá versiones nativas ni aplicaciones para dispositivos móviles.  
             - **Instrumentos adicionales:** PianoRise estará enfocado únicamente en la enseñanza del piano. No se contemplará la inclusión de otros instrumentos musicales.  
             - **Evaluación avanzada:** No se integrarán características avanzadas como la evaluación de velocidad, ritmo o teoría musical compleja.  
             - **Integración con plataformas externas:** El sistema no contará con integraciones a plataformas de música, APIs educativas o herramientas de aprendizaje externas.
