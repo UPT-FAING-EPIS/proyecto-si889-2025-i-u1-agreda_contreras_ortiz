@@ -33,13 +33,10 @@ resource "azurerm_linux_web_app" "webapps" {
     }
   }
 
-  dynamic "app_settings" {
-    for_each = each.value.use_docker ? [1] : []
-    content = {
-      WEBSITES_ENABLE_APP_SERVICE_STORAGE = "false"
-      DOCKER_REGISTRY_SERVER_URL          = each.value.registry_url
-      DOCKER_REGISTRY_SERVER_USERNAME     = each.value.registry_username
-      DOCKER_REGISTRY_SERVER_PASSWORD     = each.value.registry_password
-    }
-  }
+  app_settings = each.value.use_docker ? {
+  WEBSITES_ENABLE_APP_SERVICE_STORAGE = "false"
+  DOCKER_REGISTRY_SERVER_URL          = each.value.registry_url
+  DOCKER_REGISTRY_SERVER_USERNAME     = each.value.registry_username
+  DOCKER_REGISTRY_SERVER_PASSWORD     = each.value.registry_password
+  } : {}
 }
