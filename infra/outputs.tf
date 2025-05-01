@@ -1,6 +1,6 @@
 output "webapp_urls" {
-  description = "URLs generadas de las Web Apps creadas."
   value = {
-    for app_name, app in azurerm_linux_web_app.webapps : app_name => "https://${app.default_hostname}"
+    docker_app  = "https://${azurerm_linux_web_app.docker_app.default_hostname}"
+    net48_app   = "https://${azurerm_windows_web_app.dotnet48_app.default_hostname}"
   }
 }
