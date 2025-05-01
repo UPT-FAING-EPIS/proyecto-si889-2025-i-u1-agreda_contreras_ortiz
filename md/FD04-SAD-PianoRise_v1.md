@@ -261,3 +261,18 @@ El diagrama de casos de uso de PianoRise muestra las interacciones entre los dif
   **Diagrama 01:** Diagrama de paquetes de PianoRise.<br>
   **Fuente:** Elaboración propia.
 </center>
+
+
+## 2.2. Vista Lógica
+
+### Diagrama de Componentes:
+Este diagrama proporciona una vista más detallada de los componentes del proyecto PianoRise, facilitando la comprensión de su estructura y organización.
+
+<center>
+
+  ![width=500](../media/dg_componentes.png)  
+
+
+  **Diagrama 02:** Diagrama de Componentes de PianoRise.<br>
+  **Fuente:** Elaboración propia.
+</center>
