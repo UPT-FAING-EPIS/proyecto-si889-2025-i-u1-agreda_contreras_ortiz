@@ -2,7 +2,7 @@
 
 [comment]: <img src="./media/media/image1.png" style="width:1.088in;height:1.46256in" alt="escudo.png" />
 
-![./media/media/image1.png](./media/logo-upt.png)
+![./media/media/image1.png](../media/logo-upt.png)
 
 **UNIVERSIDAD PRIVADA DE TACNA**
 
@@ -118,11 +118,12 @@ Integrantes:
 
 El presente documento de Especificación de Requerimientos de Software (SRS) describe los requisitos funcionales y no funcionales para el desarrollo de la plataforma PianoRise, una aplicación web interactiva diseñada para facilitar el aprendizaje autónomo del piano, especialmente para estudiantes principiantes. Esta plataforma surge como una solución educativa innovadora ante los desafíos que enfrentan quienes desean aprender piano sin acceso a instrucción presencial o métodos interactivos eficaces.
 
-En respuesta a la necesidad de ofrecer una herramienta accesible, práctica y motivadora, PianoRise busca establecer un nuevo estándar en la enseñanza digital del piano. Mediante una interfaz intuitiva y un sistema de reconocimiento de audio en tiempo real, la plataforma permitirá a los usuarios visualizar en pantalla las notas a tocar, recibir retroalimentación inmediata y monitorear su avance.
+En respuesta a la necesidad de ofrecer una herramienta accesible, práctica y motivadora, PianoRise busca establecer un nuevo estándar en la enseñanza digital del piano. Mediante una interfaz intuitiva y un sistema de reconocimiento de audio, la plataforma permitirá a los usuarios visualizar en pantalla las notas a tocar, recibir retroalimentación inmediata y monitorear su avance.
 
 Además, PianoRise se compromete a brindar una experiencia didáctica centrada en la práctica, ofreciendo un repertorio de canciones básicas, ejercicios progresivos y una estructura de aprendizaje flexible. Todo ello se desarrollará bajo tecnologías web modernas, permitiendo el acceso desde navegadores sin necesidad de instalación adicional.
 
 Este documento establece los objetivos funcionales y técnicos del sistema, así como el alcance del proyecto, incluyendo las funcionalidades que serán implementadas en esta primera versión y las limitaciones correspondientes. Su propósito es servir como guía para el diseño, desarrollo, validación y mantenimiento de la plataforma PianoRise.
+
 
 
 ---
@@ -139,12 +140,12 @@ Este documento establece los objetivos funcionales y técnicos del sistema, así
 
    3. ##### **Misión** {#misión}
 
-      Brindar una educación de calidad que fomente el desarrollo de competencias académicas, personales y sociales en los estudiantes, mediante una enseñanza innovadora y comprometida con los valores institucionales.​
+      Brindar una educación de calidad que fomente el desarrollo de competencias académicas, personales y sociales en los estudiantes, mediante una enseñanza innovadora y comprometida con los valores institucionales.​​
 
    4. ##### **Organigrama** {#organigrama}
 <center>
 
-   ![width:320](./media/Organigrama.png)  
+   ![width:320](../media/Organigrama.png)  
    
    **Gráfico 01\.** Organigrama  de la Institución Educativa Privada Verdad y Vida.
    ***Fuente:** Elaboración propia.*
@@ -157,34 +158,103 @@ Este documento establece los objetivos funcionales y técnicos del sistema, así
 
    1. ##### **Descripción del Problema** {#descripción-del-problema}
 
-      El proceso de aprendizaje autodidacta del piano presenta dificultades, especialmente para principiantes que no tienen acceso a recursos educativos interactivos o retroalimentación inmediata. Los estudiantes, sin la guía de un instructor constante, pueden cometer errores en su técnica sin saberlo, lo que afecta su progreso. Además, la falta de seguimiento adecuado sobre el avance y la motivación puede generar frustración y desinterés. La necesidad de una herramienta que ofrezca ejercicios estructurados, retroalimentación en tiempo real y un sistema de progreso visual es crucial para mejorar la experiencia educativa en el piano.
+      Actualmente, en el entorno de enseñanza musical, los procesos de gestión y seguimiento de las clases de piano presentan importantes limitaciones debido a la falta de herramientas tecnológicas especializadas. El manejo de aulas, el seguimiento del progreso de los estudiantes y la organización del repertorio musical se realizan de manera manual o utilizando plataformas no adaptadas a las necesidades específicas de la formación instrumental. Esta situación genera ineficiencias, dificulta la evaluación objetiva del desempeño y limita el crecimiento académico de los estudiantes. Los principales problemas identificados son:
 
+- **Procesos manuales e ineficientes**: La creación y gestión de clases, así como el seguimiento del progreso de los alumnos, se realiza de forma manual o con herramientas genéricas, lo que provoca demoras, errores y sobrecarga de trabajo para los docentes.
+- **Falta de seguimiento estructurado del desempeño estudiantil**: Actualmente, no se dispone de un sistema que registre de manera organizada las canciones practicadas, los errores cometidos y los logros alcanzados por los estudiantes, dificultando así una evaluación continua y objetiva.
+- **Ausencia de un módulo especializado para repertorios musicales**: No existe un sistema que permita seleccionar y administrar repertorios adaptados al nivel de cada aula, limitando la personalización de la enseñanza y el desarrollo musical de los estudiantes.
+- **Gestión desorganizada de información**: El registro de alumnos, aulas y progreso de aprendizaje se realiza de forma dispersa, aumentando el riesgo de pérdida de datos importantes y dificultando la obtención de reportes consolidados.
+- **Limitada visibilidad para los docentes sobre el avance de sus estudiantes**: Los docentes carecen de herramientas que les permitan monitorear de forma clara y detallada el desempeño de cada alumno, lo que dificulta identificar áreas de mejora y establecer estrategias de refuerzo.
+- **Falta de mecanismos para generar reportes de desempeño**: No se dispone de un sistema automatizado que permita generar reportes gráficos o métricos sobre el progreso individual y grupal, lo que restringe la capacidad de análisis y retroalimentación educativa.
    2. ##### **Objetivos de Negocios** {#objetivos-de-negocios}
-
-
+   - Proporcionar una solución tecnológica accesible para mejorar la enseñanza del piano a estudiantes principiantes.
+   - Incrementar el interés de los estudiantes en la práctica diaria mediante una plataforma interactiva.
+   - Asegurar la participación activa de los docentes al incorporar PianoRise como herramienta complementaria para la enseñanza presencial.
+   - Facilitar el monitoreo del progreso de los estudiantes a través de una interfaz de administración para docentes, mejorando la eficiencia en el seguimiento y evaluación del rendimiento.
 
    3. ##### **Objetivos de Diseño** {#objetivos-de-diseño}
+   El diseño del sistema busca cumplir con una serie de objetivos estratégicos y técnicos que garanticen una experiencia efectiva, funcional y sostenible tanto para los estudiantes como para los       docentes y administradores. Los principales objetivos de diseño considerados en el desarrollo de la plataforma:
+- Interfaz intuitiva y centrada en el usuario
+- Evaluación musical con retroalimentación inmediata
+- Seguimiento personalizado del progreso
+- Gestión del repertorio por aula
+- Reportes detallados de desempeño
+- Gestión de usuarios y control de acceso
 
 
    4. ##### **Alcance del proyecto** {#alcance-del-proyecto}
 
       1) Inclusiones
+         - **Desarrollo de una Plataforma Web**: 
+            - Creación de una plataforma web accesible desde navegadores (Chrome, Firefox, Edge), con una interfaz gráfica intuitiva y moderna.
+         - **Funcionalidades Clave**:
+            - **Gestión de usuarios**: 
+               - Permitir el registro seguro de usuarios (estudiantes y docentes) mediante la creación de credenciales de acceso.
+               - Implementar el inicio de sesión y cierre de sesión de forma segura.
+               - Permitir la edición de información personal por parte de los usuarios, y la gestión de cuentas docentes por parte del administrador.
+            - **Reconocimiento de notas**:
+               - Capturar y procesar el audio a través del micrófono del usuario.
+               - Detectar las notas musicales tocadas y compararlas con las notas esperadas en cada ejercicio o canción.
+               - Proporcionar retroalimentación sobre la precisión de la ejecución.
+            - **Repertorio de canciones**:
+               - Gestionar un repertorio general de canciones sencillas, administrado por el administrador del sistema.
+               - Permitir que los docentes seleccionen las canciones del repertorio general que serán asignadas a su aula.
+               - Permitir a los estudiantes seleccionar canciones asignadas a su aula para practicarlas.
+      
+            - **Retroalimentación visual y auditiva**: 
+               - Mostrar en pantalla indicaciones visuales que resalten las notas tocadas correctamente e indiquen los errores cometidos.
+               - Emitir señales auditivas de confirmación para notas acertadas y alertas para notas incorrectas.
+            - **Gestión de aulas**:
+               - Permitir a los docentes crear aulas dentro del sistema para organizar a sus estudiantes.
+               - Asignar un repertorio específico de canciones a cada aula durante su creación o edición.
+               - Generar códigos únicos de acceso para que los estudiantes se unan a las aulas correspondientes.
+            - **Almacenamiento de progreso de los estudiantes**:
+               - Registrar únicamente las canciones que los estudiantes completen satisfactoriamente.
+               - Almacenar la cantidad de errores cometidos en cada canción finalizada.
+            - **Monitoreo del progreso por parte de los docentes**:
+               - Permitir a los docentes visualizar el avance de sus estudiantes, identificando canciones completadas y no completadas.
+               - Mostrar el puntaje y los errores obtenidos por cada estudiante en cada canción.
+            - **Generación de reportes de desempeño**
+               - Generar reportes que incluyan métricas y gráficos sobre el desempeño general del aula.
+               - Permitir la descarga o visualización de reportes para seguimiento académico.
+         - **Soporte Tecnológico**: 
+           - El sistema utilizará bibliotecas especializadas en procesamiento de audio, para la detección de notas musicales.
 
 
-      2) Exclusiones
+      2) Exclusiones:
+         - **Compatibilidad móvil**: El sistema será exclusivo para su uso en plataformas web y no contará con versiones nativas para dispositivos móviles o aplicaciones móviles.
+         - **Instrumentos adicionales**: El sistema estará enfocado exclusivamente en la enseñanza del piano, sin inclusión de otros instrumentos musicales.
+         - **Evaluación avanzada**: No se incluirán características avanzadas como la evaluación de la velocidad de ejecución o teoría musical compleja.
+         - **Integración con plataformas externas**: No habrá integraciones con plataformas externas de música o herramientas de aprendizaje de piano.
 
    5. ##### **Viabilidad del sistema** {#viabilidad-del-sistema}
 
       1. **Viabilidad Técnica:**
 
-         - Hardware  Disponible:
+         - Hardware:
+            Servidores:
+            - Host para el Servicio de Cursos de Música: Se utilizará Azure App Service en un plan de pago básico para desplegar el servicio desarrollado en ASP.NET. Este servicio en la nube garantiza la estabilidad, escalabilidad automática, administración simplificada y alta disponibilidad del sistema.
+            - Host para el Servicio de Reconocimiento de Notas: El módulo especializado en reconocimiento de notas musicales, desarrollado en Python, estará contenerizado en Docker y estará desplegado en Microsoft Azure App Service.
 
 
-         - Software  Disponible:
+            Estaciones de trabajo:
+            - Se cuenta con computadoras personales para los desarrolladores con especificaciones estándar que incluyen procesadores Intel i5/i7, 8–16GB de RAM, y SSDs, que garantizan un entorno de desarrollo ágil y funcional.
+            Sistemas operativos:
+            - Desarrollo realizado en Windows, el cual es compatible con las herramientas seleccionadas.
+   
+         - Aplicaciones y Herramientas de Desarrollo:
+            - Visual Studio Code: Es uno de los entornos de desarrollo principales utilizados en el proyecto, compatible con los sistemas operativos Windows y macOS. Ofrece una gran variedad de extensiones que permiten personalizar el entorno de trabajo, facilitando la programación y la gestión de proyectos.
+            - Visual Studio 2022: También se emplea Visual Studio 2022 como entorno de desarrollo integral (IDE), especialmente para el desarrollo de aplicaciones ASP.NET MVC. Ofrece herramientas avanzadas para depuración, integración continua y desarrollo en la nube, optimizando así la productividad del equipo.
+            - Terraform: Utilizado para la creación y gestión automatizada de la infraestructura en Azure, asegurando consistencia, control de cambios y escalabilidad en los recursos desplegados.
 
 
-         - Conectividad  a  Internet:
-
+         - Lenguajes y frameworks:
+            - Servicio de Cursos de Música: ASP.NET con .NET Framework utilizando el patrón Modelo-Vista-Controlador (MVC) y Tailwind CSS para la maquetación y diseño visual de las interfaces.
+            - Servicio de Reconocimiento de notas musicales: El procesamiento de audio será realizado de forma independiente usando Python con librerías especializadas.
+         - Infraestructura de red y acceso a internet:
+            El sistema se desarrollará y desplegará completamente en línea. Se cuenta con acceso estable a internet para todas las fases del proyecto, y el alojamiento web asegurado con dominio personalizado.
+         - Compatibilidad de navegadores:
+            El sistema será accesible desde navegadores modernos como Google Chrome, Mozilla Firefox, Microsoft Edge y Safari, sin necesidad de instalar software adicional.
 
       2. **Viabilidad Económica:**
 
@@ -255,7 +325,7 @@ Este documento establece los objetivos funcionales y técnicos del sistema, así
    | RF-05 | Gestionar repertorio de canciones | Permitir que los administradores agreguen, editen o deshabiliten canciones del repertorio disponible general antes y después de la configuración del aula. | Media |
    | RF-06 | Monitorear progreso de estudiantes | Permitir que los docentes visualicen el estado de las canciones completadas y no completadas por cada estudiante, junto con la puntuación obtenida en cada canción. | Alta |
    | RF-07 | Generar reportes de desempeño | Generar un reporte que muestre diferentes métricas y gráficos del desempeño de un aula. | Media |
-   | RF-08 | Gestionar Aulas | Permitir que los docentes creen aulas dentro del sistemas para organizar a sus estudiantes. El sistema generará un código de ingreso automáticamente el cual será utilizado por los estudiantes para unirse a dicha aula. | Alta |
+   | RF-08 | Gestionar Aulas | Permitir que los docentes creen aulas dentro del sistema para organizar a sus estudiantes. Dentro deberá de seleccionar las canciones desde el repositorio general que serán asignadas al aula, además el sistema generará un código de ingreso automáticamente el cual será utilizado por los estudiantes para unirse a dicha aula | Alta |
    | RF-09 | Gestionar Docentes | Permitir al administrador del sistema registrar nuevos docentes creando sus credenciales de acceso definiendo su nombre, apellido, correo y contraseña. Además, de poder editar y deshabilitar. | Alta |
 
    4) ##### **Reglas de Negocio** {#reglas-de-negocio}
@@ -292,7 +362,7 @@ Este documento establece los objetivos funcionales y técnicos del sistema, así
          El diagrama de clases representa la estructura lógica del sistema PianoRise, una plataforma educativa orientada al aprendizaje del piano. El modelo define entidades clave como Usuario, Alumno, Docente, Aula, Cancion e Historial, así como sus relaciones e interacciones mediante controladores específicos. Los alumnos y docentes se autentican como usuarios del sistema y se agrupan en aulas virtuales donde se asignan canciones para su práctica. A través de la clase Historial, se registra el desempeño del alumno en cada canción asignada, incluyendo su puntuación, errores y fecha. El sistema cuenta con controladores que gestionan operaciones como la creación de aulas, asignación de canciones, registro de usuarios y seguimiento del aprendizaje, permitiendo una administración eficiente y escalable del proceso educativo.
 <center>
 
-![width=500](./media/DiagramaClases.png)  
+![width=500](../media/DiagramaClases.png)  
 
 
 **Diagrama 18:** El Diagrama de Clases muestra la interacción entre usuarios, administradores, empresas, egresados, ofertas laborales y postulaciones.
