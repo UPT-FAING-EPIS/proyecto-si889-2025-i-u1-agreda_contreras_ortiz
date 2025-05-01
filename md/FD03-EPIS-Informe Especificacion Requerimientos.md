@@ -390,7 +390,18 @@ Este documento establece los objetivos funcionales y técnicos del sistema, así
 
 
    4) ##### **Reglas de Negocio** {#reglas-de-negocio}
----
+
+
+
+
+   | Nombre                       | Descripción                                                                                                                                           | Autoridad     |
+   |-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|
+   | Acceso al Aula              | El alumno solo se podrá unir al aula ingresando el código de la misma.                                                                               | Sistema       |
+   | Creación de aulas           | Un docente puede tener múltiples aulas activas, cada una con su propio repertorio y grupo de estudiantes.                                            | Docente       |
+   | Privilegios del administrador | Solo el administrador puede registrar docentes.                                                                                                      | Administrador |
+   | Repertorio general predeterminado | Los docentes no pueden editar el repertorio general, solo configurar su aula seleccionando las canciones de este.                                  | Sistema       |
+   | Criterio de progreso        | Solo se registrará como “completada” una canción si el estudiante finaliza toda la pieza dentro del margen definido.                                 | Sistema       |
+   | Validación de audio         | El reconocimiento de notas debe ejecutarse de inmediato y sólo evaluará sonidos del instrumento.                                                     | Sistema       |
 
 5. #### Fases de Desarrollo
 
