@@ -17,6 +17,13 @@ variable "app_service_plan_name" {
 variable "webapps" {
   description = "Lista de Web Apps a crear."
   type = list(object({
-    name = string
+    name              = string
+    use_docker        = bool
+    image_name        = optional(string)
+    image_tag         = optional(string)
+    registry_url      = optional(string)
+    registry_username = optional(string)
+    registry_password = optional(string)
   }))
 }
+
