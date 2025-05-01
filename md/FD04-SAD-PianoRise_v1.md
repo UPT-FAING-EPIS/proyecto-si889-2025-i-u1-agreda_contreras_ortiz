@@ -404,3 +404,11 @@ El diagrama muestra la interacción entre alumnos y docentes, cada uno con usuar
 - **Encriptación de Datos**: Todos los datos sensibles, incluyendo credenciales y registros de desempeño, estarán encriptados tanto en tránsito como en reposo para proteger la privacidad del usuario.
 
 - **Cumplimiento Normativo**: El sistema buscará alinearse con las normativas educativas y de protección de datos vigentes en el entorno de uso, especialmente en contextos escolares.
+
+### 3.3. Adaptabilidad
+
+- **Arquitectura Modular**: PianoRise estará diseñado con una arquitectura modular que facilite la incorporación de nuevas funcionalidades, como soporte para nuevos instrumentos musicales o algoritmos de análisis de sonido más avanzados.
+
+- **Soporte Multiplataforma**: La plataforma será compatible con diversos dispositivos (computadoras, tablets) y navegadores web modernos, para asegurar una experiencia fluida tanto en el aula como en el hogar.
+
+- **Configurabilidad**: Los docentes podrán personalizar aspectos clave del aula como la selección de repertorio, nivel de dificultad y fechas de práctica, sin necesidad de modificar el código fuente.
