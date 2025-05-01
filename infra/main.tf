@@ -23,9 +23,9 @@ resource "azurerm_linux_web_app" "webapps" {
 
   site_config {
     always_on = false
-
-    linux_fx_version = each.value.use_docker ? "DOCKER|${each.value.image_name}:${each.value.image_tag}" : null
   }
+
+  app_service_linux_fx_version = each.value.use_docker ? "DOCKER|${each.value.image_name}:${each.value.image_tag}" : null
 
   app_settings = each.value.use_docker ? {
     WEBSITES_ENABLE_APP_SERVICE_STORAGE = "false"
@@ -34,3 +34,4 @@ resource "azurerm_linux_web_app" "webapps" {
     DOCKER_REGISTRY_SERVER_PASSWORD     = each.value.registry_password
   } : {}
 }
+
