@@ -246,16 +246,18 @@ Al digitalizar el proceso de enseñanza musical, PianoRise elimina la necesidad 
 
  ---
 
-2. #### Representacion Arquitectonica
+## 2. Representación Arquitectónica
 
-   1. ## **Escenarios** {#escenarios}
+### 2.1. Escenarios
 
-      El diagrama de casos de uso de PianoRise muestra las interacciones entre los diferentes actores y las funcionalidades del sistema. Donde los actores principales son el Administrador y Estudiante.
+El diagrama de casos de uso de PianoRise muestra las interacciones entre los diferentes actores y las funcionalidades del sistema. Donde los actores principales son el **Administrador** y **Estudiante**.
+
 
 <center>
 
-![width=500](../media/DiagramaCasosUso.png)  
+  ![width=500](../media/paquetes.png)  
 
 
-**Diagrama 01\.** Diagrama de Casos de Uso de la Plataforma Web PianoRise  
+  **Diagrama 01:** Diagrama de paquetes de PianoRise.<br>
+  **Fuente:** Elaboración propia.
 </center>
