@@ -12,7 +12,6 @@ resource "azurerm_app_service_plan" "asp" {
     tier = "Free"
     size = "F1"
   }
-
 }
 
 resource "azurerm_linux_web_app" "webapps" {
@@ -20,9 +19,27 @@ resource "azurerm_linux_web_app" "webapps" {
   name                = each.value.name
   location            = azurerm_resource_group.rg.location
   resource_group_name = azurerm_resource_group.rg.name
-  service_plan_id = azurerm_app_service_plan.asp.id
+  service_plan_id     = azurerm_app_service_plan.asp.id
 
   site_config {
-    always_on = false  # Siempre en false en capa gratuita porque "always_on" solo se permite en planes pagos
+    always_on = false
+
+    dynamic "application_stack" {
+      for_each = each.value.use_docker ? [1] : []
+      content {
+        docker_image     = each.value.image_name
+        docker_image_tag = each.value.image_tag
+      }
+    }
+  }
+
+  dynamic "app_settings" {
+    for_each = each.value.use_docker ? [1] : []
+    content = {
+      WEBSITES_ENABLE_APP_SERVICE_STORAGE = "false"
+      DOCKER_REGISTRY_SERVER_URL          = each.value.registry_url
+      DOCKER_REGISTRY_SERVER_USERNAME     = each.value.registry_username
+      DOCKER_REGISTRY_SERVER_PASSWORD     = each.value.registry_password
+    }
   }
 }
