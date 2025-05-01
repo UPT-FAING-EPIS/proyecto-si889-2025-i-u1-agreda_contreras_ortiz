@@ -26,4 +26,3 @@ variable "webapps" {
     registry_password = optional(string)
   }))
 }
-
