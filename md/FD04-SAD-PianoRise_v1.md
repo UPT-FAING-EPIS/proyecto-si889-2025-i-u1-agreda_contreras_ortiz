@@ -385,3 +385,14 @@ El diagrama muestra la interacción entre alumnos y docentes, cada uno con usuar
       <br>
 **Fuente:** Elaboración propia.
 </center>
+
+
+## 3. Objetivos y Limitaciones Arquitectónicas
+
+### 3.1. Disponibilidad
+
+- **Alta Disponibilidad**: Se implementarán mecanismos de redundancia y recuperación ante fallos para garantizar que la plataforma esté accesible en todo momento, especialmente durante horarios escolares o de práctica frecuente.
+
+- **Monitoreo y Alertas**: Se utilizarán herramientas de monitoreo en tiempo real para detectar interrupciones, errores en el sistema o problemas de conectividad, permitiendo una respuesta oportuna.
+
+- **Escalabilidad Vertical y Horizontal**: La arquitectura permitirá escalar verticalmente (aumentando los recursos de los servidores existentes) y horizontalmente (añadiendo más servidores) a medida que crezca el número de usuarios o aulas activas.
