@@ -24,19 +24,13 @@ resource "azurerm_linux_web_app" "webapps" {
   site_config {
     always_on = false
 
-    dynamic "application_stack" {
-      for_each = each.value.use_docker ? [1] : []
-      content {
-        docker_image     = each.value.image_name
-        docker_image_tag = each.value.image_tag
-      }
-    }
+    linux_fx_version = each.value.use_docker ? "DOCKER|${each.value.image_name}:${each.value.image_tag}" : null
   }
 
   app_settings = each.value.use_docker ? {
-  WEBSITES_ENABLE_APP_SERVICE_STORAGE = "false"
-  DOCKER_REGISTRY_SERVER_URL          = each.value.registry_url
-  DOCKER_REGISTRY_SERVER_USERNAME     = each.value.registry_username
-  DOCKER_REGISTRY_SERVER_PASSWORD     = each.value.registry_password
+    WEBSITES_ENABLE_APP_SERVICE_STORAGE = "false"
+    DOCKER_REGISTRY_SERVER_URL          = each.value.registry_url
+    DOCKER_REGISTRY_SERVER_USERNAME     = each.value.registry_username
+    DOCKER_REGISTRY_SERVER_PASSWORD     = each.value.registry_password
   } : {}
 }
