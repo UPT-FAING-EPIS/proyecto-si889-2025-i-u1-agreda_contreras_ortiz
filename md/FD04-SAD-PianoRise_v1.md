@@ -136,20 +136,22 @@ Al ofrecer una visión integral de la arquitectura de PianoRise, este documento 
 
 ---
 
-1. #### Proposito
-      El objetivo principal de PianoRise es ofrecer una solución digital innovadora que facilite el aprendizaje del piano tanto de forma autónoma como en entornos educativos presenciales. Utilizando tecnologías interactivas como el reconocimiento de audio y la retroalimentación continua, la plataforma optimiza la experiencia del usuario y fomenta un aprendizaje progresivo y motivador.
+  ## 1.1. Propósito
 
-      PianoRise está diseñado para apoyar a estudiantes que se inician en el mundo musical, proporcionando un entorno práctico, accesible y didáctico, sin requerir conocimientos previos en teoría musical. Su enfoque combina la autoformación con el acompañamiento en clase, permitiendo a los alumnos avanzar a su propio ritmo mientras reciben guía y seguimiento de sus docentes.
+  El objetivo principal de **PianoRise** es ofrecer una solución digital innovadora que facilite el aprendizaje del piano tanto de forma autónoma como en entornos educativos presenciales. Utilizando tecnologías interactivas como el reconocimiento de audio y la retroalimentación continua, la plataforma optimiza la experiencia del usuario y fomenta un aprendizaje progresivo y motivador.
 
-      Los propósitos específicos del sistema son:
+  PianoRise está diseñado para apoyar a estudiantes que se inician en el mundo musical, proporcionando un entorno práctico, accesible y didáctico, sin requerir conocimientos previos en teoría musical. Su enfoque combina la autoformación con el acompañamiento en clase, permitiendo a los alumnos avanzar a su propio ritmo mientras reciben guía y seguimiento de sus docentes.
 
-      * Brindar una herramienta intuitiva y accesible para el aprendizaje del piano en contextos de educación formal y autoformación.  
-      * Utilizar reconocimiento de audio para detectar las notas tocadas por el usuario y compararlas con las notas esperadas.  
-      * Implementar un sistema de avance gradual basado en la precisión de ejecución, mediante un esquema de progreso fraccionado.  
-      * Presentar ejercicios interactivos y canciones sencillas que fomenten la motivación y la práctica constante.  
-      * Apoyar a los docentes en la supervisión del progreso de los alumnos, facilitando el seguimiento individualizado del aprendizaje musical.sencillas que motiven al usuario en su proceso de aprendizaje musical.
+  Los propósitos específicos del sistema son:
 
-        Con este enfoque, PianoRise busca modernizar la enseñanza del piano en instituciones educativas como la Institución Educativa Privada Verdad y Vida – Veritas et Vita, ofreciendo una experiencia pedagógica más dinámica, efectiva y adaptada a las necesidades del alumnado.
+  - Brindar una herramienta intuitiva y accesible para el aprendizaje del piano en contextos de educación formal y autoformación.
+  - Utilizar reconocimiento de audio para detectar las notas tocadas por el usuario y compararlas con las notas esperadas.
+  - Implementar un sistema de avance gradual basado en la precisión de ejecución, mediante un esquema de progreso fraccionado.
+  - Presentar ejercicios interactivos y canciones sencillas que fomenten la motivación y la práctica constante.
+  - Apoyar a los docentes en la supervisión del progreso de los alumnos, facilitando el seguimiento individualizado del aprendizaje musical.
+
+  Con este enfoque, PianoRise busca modernizar la enseñanza del piano en instituciones educativas como la *Institución Educativa Privada Verdad y Vida – Veritas et Vita*, ofreciendo una experiencia pedagógica más dinámica, efectiva y adaptada a las necesidades del alumnado.
+
 
 ---
 
