@@ -155,72 +155,63 @@ Al ofrecer una visión integral de la arquitectura de PianoRise, este documento 
 
 ---
 
-2. #### Alcance
+## 1.2. Alcance
 
+### Inclusiones
 
-      El presente sistema tiene como alcance el desarrollo e implementación de la plataforma web PianoRise, orientada al aprendizaje autónomo del piano para estudiantes de nivel escolar. El sistema estará enfocado en ofrecer funcionalidades prácticas que permitan la interacción directa del estudiante con ejercicios musicales y retroalimentación inmediata, así como el seguimiento del progreso por parte de los docentes. A continuación se detallan las inclusiones y exclusiones del sistema.
+**Desarrollo de una Plataforma Web:**  
+Creación de una plataforma web accesible desde navegadores (Chrome, Firefox, Edge), con una interfaz gráfica intuitiva y moderna.
 
-      ##### Inclusiones
+**Funcionalidades Clave:**
 
-      **Desarrollo de una Plataforma Web:**  
-      - Creación de una plataforma accesible desde navegadores modernos (Chrome, Firefox, Edge), con una interfaz gráfica intuitiva y moderna.
+- **Gestión de usuarios:**
+  - Permitir el registro seguro de usuarios (estudiantes y docentes) mediante la creación de credenciales de acceso.
+  - Implementar el inicio de sesión y cierre de sesión de forma segura.
+  - Permitir la edición de información personal por parte de los usuarios, y la gestión de cuentas docentes por parte del administrador.
 
-      **Funcionalidades Clave:**
+- **Reconocimiento de notas:**
+  - Capturar y procesar el audio a través del micrófono del usuario.
+  - Detectar las notas musicales tocadas y compararlas con las notas esperadas en cada ejercicio o canción.
+  - Proporcionar retroalimentación sobre la precisión de la ejecución.
 
-      - **Gestión de usuarios:**
-        - Registro seguro de estudiantes y docentes mediante credenciales.
-        - Inicio y cierre de sesión con autenticación segura.
-        - Edición de perfil por parte del usuario.
-        - Gestión de cuentas docentes por el administrador.
+- **Repertorio de canciones:**
+  - Gestionar un repertorio general de canciones sencillas, administrado por el administrador del sistema.
+  - Permitir que los docentes seleccionen las canciones del repertorio general que serán asignadas a su aula.
+  - Permitir a los estudiantes seleccionar canciones asignadas a su aula para practicarlas.
 
-      - **Reconocimiento de notas en tiempo real:**
-        - Captura y procesamiento de audio desde el micrófono.
-        - Detección y comparación de notas tocadas vs. notas esperadas.
-        - Retroalimentación inmediata sobre la precisión.
+- **Retroalimentación visual y auditiva:**
+  - Mostrar en pantalla indicaciones visuales que resalten las notas tocadas correctamente e indiquen los errores cometidos.
+  - Emitir señales auditivas de confirmación para notas acertadas y alertas para notas incorrectas.
 
-      - **Repertorio de canciones:**
-        - Administración de un repertorio de canciones por parte del administrador.
-        - Selección de canciones por docentes para asignarlas a sus aulas.
-        - Acceso por parte del estudiante a las canciones asignadas para práctica.
+- **Gestión de aulas:**
+  - Permitir a los docentes crear aulas dentro del sistema para organizar a sus estudiantes.
+  - Asignar un repertorio específico de canciones a cada aula durante su creación o edición.
+  - Generar códigos únicos de acceso para que los estudiantes se unan a las aulas correspondientes.
 
-      - **Retroalimentación visual y auditiva:**
-        - Indicaciones visuales para notas correctas e incorrectas.
-        - Señales sonoras de confirmación o error.
+- **Almacenamiento de progreso de los estudiantes:**
+  - Registrar únicamente las canciones que los estudiantes completen satisfactoriamente.
+  - Almacenar la cantidad de errores cometidos en cada canción finalizada.
 
-      - **Gestión del aula:**
-        - Creación de aulas por parte de los docentes.
-        - Asignación de repertorios a cada aula.
-        - Generación de códigos únicos para que los estudiantes se unan.
+- **Monitoreo del progreso por parte de los docentes:**
+  - Permitir a los docentes visualizar el avance de sus estudiantes, identificando canciones completadas y no completadas.
+  - Mostrar el puntaje y los errores obtenidos por cada estudiante en cada canción.
 
-      - **Almacenamiento de progreso de los estudiantes:**
-        - Registro de canciones completadas satisfactoriamente.
-        - Almacenamiento de errores cometidos por canción finalizada.
+- **Generación de reportes de desempeño:**
+  - Generar reportes que incluyan métricas y gráficos sobre el desempeño general del aula.
+  - Permitir la descarga o visualización de reportes para seguimiento académico.
 
-      - **Monitoreo de progreso para docentes:**
-        - Visualización del avance de cada estudiante.
-        - Detalle de canciones completadas, puntajes y errores.
+**Soporte Tecnológico:**  
+El sistema utilizará bibliotecas especializadas en procesamiento de audio (como Librosa o similares) para la detección de notas musicales.
 
-      - **Generación de reportes de desempeño:**
-        - Creación de reportes con métricas y gráficos por aula.
-        - Posibilidad de descargar o visualizar los reportes para seguimiento académico.
+---
 
-      **Soporte Tecnológico:**  
-      - Uso de bibliotecas especializadas como Librosa para el procesamiento de audio y detección de notas en tiempo real.
+### Exclusiones
 
+- **Compatibilidad móvil:** El sistema será exclusivo para su uso en plataformas web y no contará con versiones nativas para dispositivos móviles o aplicaciones móviles.
+- **Instrumentos adicionales:** El sistema estará enfocado exclusivamente en la enseñanza del piano, sin inclusión de otros instrumentos musicales.
+- **Evaluación avanzada:** No se incluirán características avanzadas como la evaluación de la velocidad de ejecución o teoría musical compleja.
+- **Integración con plataformas externas:** No habrá integraciones con plataformas externas de música o herramientas de aprendizaje de piano.
 
-      ##### Exclusiones
-
-      - **Compatibilidad móvil:**  
-        El sistema estará disponible solo para plataformas web. No se desarrollarán apps móviles nativas.
-
-      - **Instrumentos adicionales:**  
-        El enfoque del sistema estará limitado exclusivamente al piano.
-
-      - **Evaluación avanzada:**  
-        No se incluirán evaluaciones de velocidad, ritmo o teoría musical compleja.
-
-      - **Integración con plataformas externas:**  
-        No se contemplan integraciones con APIs educativas ni plataformas musicales de terceros.
 
 ---
 
