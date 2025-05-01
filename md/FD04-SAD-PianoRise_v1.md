@@ -215,8 +215,21 @@ El sistema utilizará bibliotecas especializadas en procesamiento de audio (como
 
 ---
 
-  3. #### **Definiciones, Siglas y Abreviaturas**
+## 1.3. Definiciones, Siglas y Abreviaturas
 
+- **PianoRise:** Nombre del sistema. Representa la idea de "elevar el aprendizaje del piano", integrando tecnología con procesos pedagógicos musicales.
+
+- **Aula:** Entorno virtual creado por un docente, que agrupa estudiantes y repertorio musical asignado.
+
+- **Canción:** Pieza musical disponible en el repertorio general que puede ser seleccionada por los estudiantes para su práctica o evaluación.
+
+- **Evaluación:** Proceso automático de análisis de una práctica musical para detectar precisión, errores, ritmo y otros parámetros.
+
+- **Historial:** Registro cronológico de las prácticas realizadas y evaluaciones obtenidas por un estudiante dentro del sistema.
+
+- **Docente:** Usuario encargado de gestionar aulas, monitorear estudiantes y generar reportes dentro del sistema.
+
+- **Estudiante:** Usuario con acceso a su aula asignada para practicar piezas musicales y visualizar sus avances.
 
 ---
 
