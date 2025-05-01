@@ -482,9 +482,40 @@ Este documento establece los objetivos funcionales y técnicos del sistema, así
 
       1) ##### Análisis de Objetos {#análisis-de-objetos}
 
+      Objetos Entidad:
+
+      <center>
+
+      ![width=500](../media/entidad.png)
+
+      **Gráfico 03:** Objetos entidad de la plataforma web PianoRise.
+      <br>
+      **Fuente:** Elaboración propia.
+      </center>
+
+      Objetos Frontera:
+
+      <center>
+
+      ![width=500](../media/frontera.png)
+
+      **Gráfico 04:** Objetos frontera de la plataforma web PianoRise.
+      <br>
+      **Fuente:** Elaboración propia.
+      </center>
+
+      Objetos Control:
+
+      <center>
+
+      ![width=500](../media/controlador.png)
+
+      **Gráfico 05:** Objetos control de la plataforma web PianoRise.
+      <br>
+      **Fuente:** Elaboración propia.
+      </center>
 
       2) ##### Diagrama de Actividades con Objetos {#diagrama-de-actividades-con-objetos}
-
 
       3) ##### Diagrama Secuencia {#diagrama-secuencia}
 
