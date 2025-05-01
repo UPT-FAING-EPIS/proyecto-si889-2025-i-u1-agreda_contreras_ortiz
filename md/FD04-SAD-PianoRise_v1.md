@@ -123,15 +123,16 @@ Integrantes:
 
 ## **Documento de Arquitectura de Software**
 
-### **Introducción** 
+# 1. Introducción
 
-El presente Documento de Arquitectura de Software para "PianoRise" tiene como objetivo principal proporcionar una visión detallada y estructurada de la arquitectura y el diseño del sistema. PianoRise no es solo una plataforma educativa; es una iniciativa tecnológica pensada para transformar la forma en que los estudiantes de piano desarrollan sus habilidades, mediante la práctica autónoma, el seguimiento del progreso y la interacción en un entorno guiado por docentes.
+El presente Documento de Arquitectura de Software para **PianoRise** tiene como objetivo principal proporcionar una visión detallada y estructurada de la arquitectura y el diseño del sistema. PianoRise no es solo una plataforma educativa; es una iniciativa tecnológica pensada para transformar la forma en que los estudiantes de piano desarrollan sus habilidades, mediante la práctica autónoma, el seguimiento del progreso y la interacción en un entorno guiado por docentes.
 
 Este sistema ha sido diseñado para atender varios desafíos clave en la enseñanza y aprendizaje musical: la falta de retroalimentación inmediata durante la práctica individual, la necesidad de llevar un historial de desempeño preciso, y la gestión efectiva de aulas virtuales por parte de los docentes. PianoRise busca ofrecer un espacio donde el estudiante pueda practicar piezas musicales con evaluación automática en tiempo real, mientras los docentes supervisan el avance de sus alumnos.
 
 Este documento está orientado a ofrecer una guía clara y comprensible para todos los desarrolladores y partes interesadas, detallando la organización general del sistema, los componentes principales, los módulos que lo integran, y las interacciones entre ellos. Se incluyen diagramas UML y de flujo que representan los procesos fundamentales del software, permitiendo que cada parte del sistema esté bien documentada y pueda comprenderse con facilidad.
 
 Al ofrecer una visión integral de la arquitectura de PianoRise, este documento facilita la colaboración y el entendimiento entre todos los integrantes del equipo de desarrollo. El objetivo es asegurar que el sistema se implemente de manera sólida, escalable y alineada con los objetivos pedagógicos, brindando una plataforma robusta para la enseñanza y práctica del piano.
+
 
 ---
 
