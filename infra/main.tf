@@ -8,7 +8,7 @@ resource "azurerm_service_plan" "windows_asp" {
   location            = azurerm_resource_group.rg.location
   resource_group_name = azurerm_resource_group.rg.name
   os_type             = "Windows"
-  sku_name            = "F1"
+  sku_name            = "B1"
 }
 
 resource "azurerm_windows_web_app" "dotnet48_app" {
@@ -35,7 +35,7 @@ resource "azurerm_service_plan" "linux_asp" {
   location            = azurerm_resource_group.rg.location
   resource_group_name = azurerm_resource_group.rg.name
   os_type             = "Linux"
-  sku_name            = "F1"
+  sku_name            = "B1"
 }
 
 resource "azurerm_linux_web_app" "docker_app" {
